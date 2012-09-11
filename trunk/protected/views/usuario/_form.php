@@ -57,16 +57,19 @@
 		<?php echo $form->error($model,'usuario_activo'); ?>
 	</div>
 
+	<?php if($model->isNewRecord): ?>
 	<div class="row">
 		<?php echo $form->labelEx($model,'usuario_password'); ?>
 		<?php echo $form->passwordField($model,'usuario_password',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'usuario_password'); ?>
 	</div>
+	
 	<div class="row">
 		<?php echo $form->labelEx($model,'usuario_password_repeat'); ?>
 		<?php echo $form->passwordField($model,'usuario_password_repeat',array('size'=>60,'maxlength'=>255)); ?>
 		<?php echo $form->error($model,'usuario_password_repeat'); ?>
 	</div>
+	<?php endif; ?>
 
 	<div class="row buttons">
 		<?php echo CHtml::submitButton($model->isNewRecord ? Yii::app()->params['valorBotonCrear'] : Yii::app()->params['valorBotonActualizar']); ?>

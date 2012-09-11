@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+* {
+	margin:						0;
+	padding:					0;
+}
+
+body {
+	background-color: 			#F3F3F3;
+}
+
+div {
+	font-family: 				"Arial";
+	font-size:					12px;
+}
+
+td {
+	font-family: 				"Arial";
+	font-size:					12px;
+}
+
+h1 {
+	font-family:				"Century Gothic";
+	font-size:					20px;
+	font-weight: 				bold;
+	color:						#25A230;
+	margin:						10px 0px 10px 0px;
+	padding:					0px;
+}
+
+input {
+	font-family: 				"Arial";
+	font-size:					12px;
+	padding:					2px;
+	border-style: 				none;
+	outline: 					none;
+	padding:					4px 4px 4px 4px;
+}
+
+img {
+	border:						0px;
+}
+
+#contenedor {
+	background-image:			url('/images/bg_contenedor.png');
+	width:						966px;
+	background-color: 			#FFFFFF;
+	margin:						0px auto;
+}
+
+#cabecera_top {
+	background-image:			url('/images/bg_cabecera.gif');
+	width:						966px;
+	height:						6px;
+}
+#cabecera {
+	margin:						4px 10px 20px 10px;
+	width:						946px;
+}
+#cabecera div {
+	
+}
+
+#contenedor_menu {
+	margin:						0px 10px 0px 10px;
+	height:						34px;
+}
+#menu {
+	display: 					block;
+	background-color: 			#CCCCCC;
+}
+#menu li {
+	list-style-type: 			none;
+	float: 						left;
+	margin:						6px 44px 5px 45px;
+	font-family:				"Century Gothic";
+	font-size:					16px;
+}
+#menu li a {
+	color:						#FFFFFF;
+	text-decoration: 			none;
+}
+.menu_left {
+	width:						5px;
+	float: 						left;
+}
+.menu_centro {
+	height:						34px;
+	background-color: 			rgb(241, 145, 8);
+	color:						#FFFFFF;
+	float: 						left;
+}
+.menu_right {
+	width:						5px;
+	float: 						left;
+}
+
+#contenido {
+	margin:						0px 10px 0px 10px;
+}
+
+#pie {
+	
+}
+
+.titulos {
+	font:						24px/24px "Century Gothic";
+	padding:					5px 0px 5px 5px;
+	margin:						20px 0px 15px 0px;
+	border-left:				5px solid #F19108;
+	color:						#F19108;
+}
+
+.clear {
+	clear: 						both;
+}
+
+.input_buscar {
+	position:					absolute;
+	top:						5px;
+	left:						2px;
+	width:						185px;
+}
+
+.contenedor_input_buscar {
+	width:						200px;
+	height:						30px;
+	background-image: 			url('/images/bg_input_buscar.png');
+	position: 					relative;
+	margin-top:					91px;
+	margin-left:				212px;
+}
+
+.caja_login {
+	width:						215px;
+	height:						150px;
+	background-image: 			url('/images/bg_caja_login.png');
+}
+.input_login {
+	width:						150px;
+	border:						1px solid #CCCCCC;
+	margin:						0px auto;
+}

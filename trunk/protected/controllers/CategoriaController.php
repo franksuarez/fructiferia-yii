@@ -1,7 +1,6 @@
 <?php
 
-class CategoriaController extends Controller
-{
+class CategoriaController extends Controller {
 	/**
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
@@ -11,8 +10,7 @@ class CategoriaController extends Controller
 	/**
 	 * @return array action filters
 	 */
-	public function filters()
-	{
+	public function filters() {
 		return array(
 			'accessControl', // perform access control for CRUD operations
 			'postOnly + delete', // we only allow deletion via POST request
@@ -24,8 +22,7 @@ class CategoriaController extends Controller
 	 * This method is used by the 'accessControl' filter.
 	 * @return array access control rules
 	 */
-	public function accessRules()
-	{
+	public function accessRules() {
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
 				'actions'=>array('index','view'),
@@ -49,8 +46,7 @@ class CategoriaController extends Controller
 	 * Displays a particular model.
 	 * @param integer $id the ID of the model to be displayed
 	 */
-	public function actionView($id)
-	{
+	public function actionView($id) {
 		$this->render('view',array(
 			'model'=>$this->loadModel($id),
 		));
@@ -60,15 +56,13 @@ class CategoriaController extends Controller
 	 * Creates a new model.
 	 * If creation is successful, the browser will be redirected to the 'view' page.
 	 */
-	public function actionCreate()
-	{
+	public function actionCreate() {
 		$model=new Categoria;
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Categoria']))
-		{
+		if(isset($_POST['Categoria'])) {
 			$model->attributes=$_POST['Categoria'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->categoria_id));
@@ -84,15 +78,13 @@ class CategoriaController extends Controller
 	 * If update is successful, the browser will be redirected to the 'view' page.
 	 * @param integer $id the ID of the model to be updated
 	 */
-	public function actionUpdate($id)
-	{
+	public function actionUpdate($id) {
 		$model=$this->loadModel($id);
 
 		// Uncomment the following line if AJAX validation is needed
 		// $this->performAjaxValidation($model);
 
-		if(isset($_POST['Categoria']))
-		{
+		if(isset($_POST['Categoria'])) {
 			$model->attributes=$_POST['Categoria'];
 			if($model->save())
 				$this->redirect(array('view','id'=>$model->categoria_id));
@@ -108,8 +100,7 @@ class CategoriaController extends Controller
 	 * If deletion is successful, the browser will be redirected to the 'admin' page.
 	 * @param integer $id the ID of the model to be deleted
 	 */
-	public function actionDelete($id)
-	{
+	public function actionDelete($id) {
 		$this->loadModel($id)->delete();
 
 		// if AJAX request (triggered by deletion via admin grid view), we should not redirect the browser
@@ -120,8 +111,7 @@ class CategoriaController extends Controller
 	/**
 	 * Lists all models.
 	 */
-	public function actionIndex()
-	{
+	public function actionIndex() {
 		$dataProvider=new CActiveDataProvider('Categoria');
 		$this->render('index',array(
 			'dataProvider'=>$dataProvider,
@@ -131,8 +121,7 @@ class CategoriaController extends Controller
 	/**
 	 * Manages all models.
 	 */
-	public function actionAdmin()
-	{
+	public function actionAdmin() {
 		$model=new Categoria('search');
 		$model->unsetAttributes();  // clear any default values
 		if(isset($_GET['Categoria']))
@@ -148,8 +137,7 @@ class CategoriaController extends Controller
 	 * If the data model is not found, an HTTP exception will be raised.
 	 * @param integer the ID of the model to be loaded
 	 */
-	public function loadModel($id)
-	{
+	public function loadModel($id) {
 		$model=Categoria::model()->findByPk($id);
 		if($model===null)
 			throw new CHttpException(404,'The requested page does not exist.');
@@ -160,10 +148,8 @@ class CategoriaController extends Controller
 	 * Performs the AJAX validation.
 	 * @param CModel the model to be validated
 	 */
-	protected function performAjaxValidation($model)
-	{
-		if(isset($_POST['ajax']) && $_POST['ajax']==='categoria-form')
-		{
+	protected function performAjaxValidation($model) {
+		if(isset($_POST['ajax']) && $_POST['ajax'] === 'categoria-form') {
 			echo CActiveForm::validate($model);
 			Yii::app()->end();
 		}
