@@ -17,9 +17,9 @@
  * @property Permiso[] $permisos
  */
 class Usuario extends CActiveRecord {
-	
+
 	public $usuario_password_repeat;
-	
+
 	/**
 	 * Returns the static model of the specified AR class.
 	 * @param string $className active record class name.
@@ -42,16 +42,10 @@ class Usuario extends CActiveRecord {
 	public function rules() {
 		// NOTE: you should only define rules for those attributes that
 		// will receive user inputs.
-		return array(
-			array('usuario_rut, usuario_dv, usuario_nombre, usuario_ape_paterno, usuario_ape_materno, usuario_mail, usuario_activo, usuario_password, usuario_password_repeat', 'required'),
-			array('usuario_rut, usuario_activo', 'numerical', 'integerOnly' => true),
-			array('usuario_dv', 'length', 'max' => 1),
-			array('usuario_nombre, usuario_ape_paterno, usuario_ape_materno, usuario_mail, usuario_password', 'length', 'max' => 255),
-			array('usuario_password', 'compare'),
-			// The following rule is used by search().
-			// Please remove those attributes that should not be searched.
-			array('usuario_rut, usuario_dv, usuario_nombre, usuario_ape_paterno, usuario_ape_materno, usuario_mail, usuario_activo, usuario_password, usuario_password_repeat', 'safe', 'on' => 'search'),
-		);
+		return array( array('usuario_rut, usuario_dv, usuario_nombre, usuario_ape_paterno, usuario_ape_materno, usuario_mail, usuario_activo, usuario_password, usuario_password_repeat', 'required'), array('usuario_rut, usuario_activo', 'numerical', 'integerOnly' => true), array('usuario_dv', 'length', 'max' => 1), array('usuario_nombre, usuario_ape_paterno, usuario_ape_materno, usuario_mail, usuario_password', 'length', 'max' => 255), array('usuario_password', 'compare'),
+		// The following rule is used by search().
+		// Please remove those attributes that should not be searched.
+		array('usuario_rut, usuario_dv, usuario_nombre, usuario_ape_paterno, usuario_ape_materno, usuario_mail, usuario_activo, usuario_password, usuario_password_repeat', 'safe', 'on' => 'search'), );
 	}
 
 	/**
@@ -67,24 +61,14 @@ class Usuario extends CActiveRecord {
 	 * @return array customized attribute labels (name=>label)
 	 */
 	public function attributeLabels() {
-		return array(
-			'usuario_rut' => 'RUT',
-			'usuario_dv' => 'Digito Verificador',
-			'usuario_nombre' => 'Nombre',
-			'usuario_ape_paterno' => 'Apellido Paterno',
-			'usuario_ape_materno' => 'Apellido Materno',
-			'usuario_mail' => 'Mail',
-			'usuario_activo' => 'Activo',
-			'usuario_password' => 'Password',
-			'usuario_password_repeat' => 'Repetir Password',
-		);
+		return array('usuario_rut' => 'RUT', 'usuario_dv' => 'Digito Verificador', 'usuario_nombre' => 'Nombre', 'usuario_ape_paterno' => 'Apellido Paterno', 'usuario_ape_materno' => 'Apellido Materno', 'usuario_mail' => 'Mail', 'usuario_activo' => 'Activo', 'usuario_password' => 'Password', 'usuario_password_repeat' => 'Repetir Password', );
 	}
-	
+
 	protected function afterValidate() {
 		parent::afterValidate();
-		$this->usuario_password = $this->encrypt($this->usuario_password);
+		$this -> usuario_password = $this -> encrypt($this -> usuario_password);
 	}
-	
+
 	public function encrypt($value) {
 		return md5($value);
 	}

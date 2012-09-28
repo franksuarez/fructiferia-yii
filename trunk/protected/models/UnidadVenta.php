@@ -49,10 +49,7 @@ class UnidadVenta extends CActiveRecord {
 	 * @return array customized attribute labels (name=>label)
 	 */
 	public function attributeLabels() {
-		return array(
-			'unidad_venta_id' => 'ID',
-			'unidad_venta_nombre' => 'Nombre',
-		);
+		return array('unidad_venta_id' => 'ID', 'unidad_venta_nombre' => 'Nombre', );
 	}
 
 	/**

@@ -28,12 +28,25 @@ h1 {
 	padding:					0px;
 }
 
-input {
+input[type="text"] {
 	font-family: 				"Arial";
 	font-size:					12px;
 	padding:					2px;
 	border-style: 				none;
 	outline: 					none;
+	padding:					4px 4px 4px 4px;
+}
+input[type="password"] {
+	font-family: 				"Arial";
+	font-size:					12px;
+	padding:					2px;
+	border-style: 				none;
+	outline: 					none;
+	padding:					4px 4px 4px 4px;
+}
+input[type="submit"] {
+	font-family: 				"Arial";
+	font-size:					12px;
 	padding:					4px 4px 4px 4px;
 }
 
@@ -104,8 +117,8 @@ img {
 }
 
 .titulos {
-	font:						24px/24px "Century Gothic";
-	padding:					5px 0px 5px 5px;
+	font:						24px/24px "Trebuchet MS";
+	padding:					5px 0px 4px 5px;
 	margin:						20px 0px 15px 0px;
 	border-left:				5px solid #F19108;
 	color:						#F19108;

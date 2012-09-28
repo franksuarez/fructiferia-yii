@@ -1,3 +1,4 @@
+<?php //if(isset($_POST)) { echo "<pre>"; print_r($_POST); echo "</pre>"; } ?>
 <?php /* @var $this Controller */ ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
@@ -16,7 +17,7 @@
 		
 		<div id="cabecera">
 			<div style="float: left; width: 50%;">
-				<?php echo CHtml::image('/images/logo.jpg', 'Fructiferia', array('style' => 'width: 307px; height: 120px;')) ?>
+				<?php echo CHtml::image('/images/logo2.png', 'Fructiferia', array('style' => 'width: 307px; height: 120px;')) ?>
 			</div>
 			<div style="float: left; width: 50%;">
 				<div class="contenedor_input_buscar">
@@ -50,27 +51,41 @@
 			</div>
 		</div>
 		
-		<div style="width: 220px; float: left; margin-left: 10px;">
-			<div class="titulos">
-				Club Fructiferia
-			</div>
-			
-			<div>
-				<div style="float: left; width: 220px; height: 176px; background-image: url('/images/bg_caja_login.png'); position: relative;">
-					<label style="position: absolute; top: 30px; left: 5px;">RUT</label>
-					<input style="position: absolute; top: 24px; left: 77px; width: 84px; border: 1px solid #cccccc;" maxlength="10" type="text" name="Cliente[rut]" />
-					<input style="position: absolute; top: 24px; left: 181px; width: 20px; border: 1px solid #cccccc;" maxlength="1" type="text" name="Cliente[dv]" />
-					<label style="position: absolute; top: 75px; left: 5px;">Password</label>
-					<input style="position: absolute; top: 69px; left: 76px; width: 125px; border: 1px solid #cccccc;" maxlength="50" type="password" name="Cliente[password]" />
-				</div>
-				<div style="float: left; width: 726px; margin-right: 10px;"></div>
-			</div>
+		<div style="height: 20px;"></div>
+		
+		<div style="margin: 0px 0px 0px 10px;">
+			<table style="width: 946px;">
+				<tr>
+					<td style="width: 180px; vertical-align: top;">Categorías</td>
+					<td style="width: 546px; vertical-align: top;">
+						<div style="width: 100%; height: 100%; margin: 0px 0px 0px 5px;">
+							<?php echo $content; ?>
+						</div>
+					</td>
+					<td style="width: 220px;">
+						<div style="width: 220px; height: 176px; background-image: url('/images/bg_caja_login.png'); position: relative;">
+							<form method="post" action="" name="frm_club_fructiferia">
+								<input style="position: absolute; top: 15px; left: 15px; width: 84px; border: 1px solid #cccccc;" maxlength="10" type="text" value="RUT" onfocus="if(this.value=='RUT')this.value='';" onblur="if(this.value=='')this.value='RUT';" name="Cliente[rut]" />
+								<input style="position: absolute; top: 15px; left: 126px; width: 20px; border: 1px solid #cccccc;" maxlength="1" type="text" name="Cliente[dv]" />
+								<input style="position: absolute; top: 60px; left: 15px; width: 131px; border: 1px solid #cccccc;" maxlength="50" type="password" value="password" onfocus="if(this.value=='password')this.value='';" onblur="if(this.value=='')this.value='password';" name="Cliente[password]" />
+								
+								<label style="position: absolute; top: 100px; left: 15px;">Persona</label>
+								<label style="position: absolute; top: 100px; left: 105px;">Empresa</label>
+								
+								<input type="radio" name="Cliente[tipo]" value="P" style="position: absolute; top: 115px; left: 15px;" checked="checked" />
+								<input type="radio" name="Cliente[tipo]" value="E" style="position: absolute; top: 115px; left: 105px;" />
+								
+								<input type="submit" value="Ingresar" style="position: absolute; top: 135px; left: 15px;" />
+							</form>
+						</div>
+					</td>
+				</tr>
+			</table>
 		</div>
-		<div style="width: 726px; float: left;"></div>
 		
 		<div class="clear"></div>
 		
-		<div id="contenido"><?php echo $content; ?></div>
+		<!--<div id="contenido"></div>-->
 		
 		<div class="clear"></div>
 		

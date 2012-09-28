@@ -5,8 +5,8 @@ class SiteController extends Controller {
 	 * @var string the default layout for the views. Defaults to '//layouts/column2', meaning
 	 * using two-column layout. See 'protected/views/layouts/column2.php'.
 	 */
-	public $layout='//layouts/sitio';
-	
+	public $layout = '//layouts/sitio';
+
 	/**
 	 * Declares class-based actions.
 	 */
@@ -40,9 +40,9 @@ class SiteController extends Controller {
 				$this -> render('error', $error);
 		}
 	}
-	
+
 	public function actionContacto() {
-		$this->render('contacto');
+		$this -> render('contacto');
 	}
 
 	/**
@@ -69,6 +69,7 @@ class SiteController extends Controller {
 	 * Displays the login page
 	 */
 	public function actionLogin() {
+		$this -> layout = '//layouts/column1';
 		$model = new LoginForm;
 
 		// if it is ajax validation request
