@@ -1,0 +1,826 @@
+2013/01/03 21:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:24:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:24:48 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker_active.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker_active.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker_active.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker_active.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:26:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/03 21:35:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_list_marker_active.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_l...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_list_marker_active.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:30:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:32:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:33:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:34:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:56:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 00:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:04:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:06:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:06:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:07:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:07:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:07:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:08:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:09:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:09:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:10:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:11:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 01:11:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/header_block_2_bg.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/header_b...')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/header_block_2_bg.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 18:47:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "producto".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('producto')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/producto
+---
+2013/01/04 18:47:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "productos".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('productos')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/productos
+---
+2013/01/04 18:59:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/logo.png".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('images/logo.png')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/logo.png
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/04 19:23:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "productos".' in C:\yii-1.1.12.b600af\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\yii-1.1.12.b600af\framework\web\CWebApplication.php(142): CWebApplication->runController('productos')
+#1 C:\yii-1.1.12.b600af\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/productos
+---
+2013/01/07 01:11:14 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\carro-felinos\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/site/login
+---
+2013/01/07 01:59:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "js/jquery.fancybox/funciones.js".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('js/jquery.fancy...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/js/jquery.fancybox/funciones.js
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/07 05:47:33 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php:16)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): ProductoController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(149): ProductoController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#9 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#12 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+in C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php (16)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (149)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 05:47:51 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php:16)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): ProductoController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(149): ProductoController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#9 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#12 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+in C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php (16)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (149)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 05:48:09 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php:16)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): ProductoController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(149): ProductoController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#8 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#9 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#12 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#14 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#15 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+in C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php (16)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (149)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 05:51:48 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/07 05:51:57 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 05:53:47 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/07 05:54:50 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.0" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/07 05:54:55 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.0" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 05:55:13 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.0" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 05:58:13 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.0" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('0', Array)
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/07 05:58:36 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(14): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 05:58:36 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(14): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 05:58:42 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 05:58:43 [error] [exception.CException] exception 'CException' with message 'Property "CActiveForm.enctype" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWidgetFactory.php(162): CComponent->__set('enctype', 'multipart/form-...')
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(147): CWidgetFactory->createWidget(Object(ProductoController), 'CActiveForm', Array)
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(190): CBaseController->createWidget('CActiveForm', Array)
+#3 C:\wamp\www\carro-felinos\protected\views\producto\agregarImagen.php(13): CBaseController->beginWidget('CActiveForm', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarImagen', Array, true)
+#8 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(146): CController->render('agregarImagen', Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ProductoController->actionAgregarImagen()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 16:14:40 [error] [php] Undefined variable: _FILE (C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php:140)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#2 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (140)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 16:57:29 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (139)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 17:25:32 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (139)
+in C:\wamp\www\carro-felinos\index.php (13)
