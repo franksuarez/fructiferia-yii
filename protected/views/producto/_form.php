@@ -53,13 +53,15 @@
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'categoria_id'); ?>
-		<?php echo $form->textField($model,'categoria_id',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->dropDownList($model, 'categoria_id', CHtml::listData(Categoria::model()->findAll(), 'categoria_id', 'categoria_nombre'), array('empty' => 'Seleccione Categoría')); ?>
+		<?php //echo $form->textField($model,'categoria_id',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model,'categoria_id'); ?>
 	</div>
 
 	<div class="row">
 		<?php echo $form->labelEx($model,'unidad_venta_id'); ?>
-		<?php echo $form->textField($model,'unidad_venta_id',array('size'=>20,'maxlength'=>20)); ?>
+		<?php echo $form->dropDownList($model, 'unidad_venta_id', CHtml::listData(UnidadVenta::model()->findAll(), 'unidad_venta_id', 'unidad_venta_nombre'), array('empty' => 'Seleccione Categoría')); ?>
+		<?php //echo $form->textField($model,'unidad_venta_id',array('size'=>20,'maxlength'=>20)); ?>
 		<?php echo $form->error($model,'unidad_venta_id'); ?>
 	</div>
 

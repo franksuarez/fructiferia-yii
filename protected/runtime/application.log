@@ -824,3 +824,624 @@ in C:\wamp\www\carro-felinos\index.php (13)
 2013/01/07 17:25:32 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
 in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (139)
 in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 22:24:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Imágenes Productos".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('Im??genes Produ...')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('Im??genes Produ...')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('configuracion/I...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/configuracion/Im%C3%A1genes+Productos
+HTTP_REFERER=http://localhost:90/carro-felinos/configuracion/create
+---
+2013/01/07 22:25:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "Prueba".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('Prueba')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('Prueba')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('configuracion/P...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/configuracion/Prueba
+HTTP_REFERER=http://localhost:90/carro-felinos/configuracion/create
+---
+2013/01/07 22:28:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "configuracion/create".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('configuracion/c...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/configuracion/create
+---
+2013/01/07 22:28:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "configuracion".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('configuracion')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/configuracion/
+---
+2013/01/07 22:58:44 [error] [php] Use of undefined constant Configuracion - assumed 'Configuracion' (C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php:129)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen/1
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (129)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 22:58:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\carro-felinos\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 22:59:22 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\carro-felinos\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen
+---
+2013/01/07 22:59:27 [error] [php] Use of undefined constant Configuracion - assumed 'Configuracion' (C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php:129)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen/1
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (129)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 22:59:57 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 22:59:57 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 22:59:57 [error] [php] Object of class Configuracion could not be converted to string (C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php:144)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/agregarImagen/1
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:00:46 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:00:46 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:00:46 [error] [exception.CException] exception 'CException' with message 'Property "Configuracion.imagen_ruta" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('imagen_ruta')
+#1 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(144): CActiveRecord->__get('imagen_ruta')
+#2 [internal function]: ProductoController->actionAgregarImagen('1')
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductoController), Array)
+#4 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductoController), Object(ReflectionMethod), Array)
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#9 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#10 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#15 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#17 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen/1
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/agregarImagen/1
+---
+2013/01/07 23:01:17 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:01:17 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:06:34 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:06:34 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:08:20 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:08:20 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:08:21 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\carro-felinos\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen/view
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/agregarImagen/1
+---
+2013/01/07 23:09:40 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\carro-felinos\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen/
+---
+2013/01/07 23:09:49 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:09:49 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:09:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\carro-felinos\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarImagen')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/agrega...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/producto/agregarImagen/producto/view
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/agregarImagen/2
+---
+2013/01/07 23:11:07 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:11:07 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:15:21 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:15:21 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (141)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:31:03 [error] [exception.CException] exception 'CException' with message 'Property "Imagen.imagen_ruta" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('imagen_ruta')
+#1 C:\wamp\www\carro-felinos\protected\views\producto\view.php(45): CActiveRecord->__get('imagen_ruta')
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#3 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('view', Array, true)
+#6 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(43): CController->render('view', Array)
+#7 [internal function]: ProductoController->actionView('2')
+#8 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(ProductoController), Array)
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(ProductoController), Object(ReflectionMethod), Array)
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#18 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('view')
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/view')
+#20 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#21 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#22 {main}
+REQUEST_URI=/carro-felinos/producto/2
+---
+2013/01/07 23:33:25 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (143)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:33:25 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (143)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:40:52 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (143)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/07 23:40:52 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (143)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 00:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "PI-000005-Crisantemo_imagen.jpg".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('PI-000005-Crisa...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/PI-000005-Crisantemo_imagen.jpg
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 00:08:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "PI-000006-Penguins.jpg".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('PI-000006-Pengu...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/PI-000006-Penguins.jpg
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 00:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 01:28:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 01:28:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/2
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 01:28:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/2
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 01:29:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/2?imgid=5
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 01:36:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/6
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/2
+---
+2013/01/08 01:48:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarImagen".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarImagen')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/1?imgid=7
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/08 01:48:29 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in C:\wamp\www\carro-felinos\framework\web\auth\CAccessControlFilter.php:170
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\auth\CAccessControlFilter.php(133): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(39): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#4 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarImagen')
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/elimin...')
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/1?imgid=7
+HTTP_REFERER=http://localhost:90/carro-felinos/producto/1
+---
+2013/01/08 01:48:48 [error] [php] Non-static method CActiveRecord::findByPk() should not be called statically, assuming $this from incompatible context (C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php:165)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#3 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#5 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#6 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#11 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#12 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/1?imgid=7
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (165)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:49:34 [error] [php] include(7.php): failed to open stream: No such file or directory (C:\wamp\www\carro-felinos\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(387): spl_autoload_call()
+#1 C:\wamp\www\carro-felinos\protected\models\Imagen.php(23): model()
+#2 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(165): model()
+#3 unknown(0): ProductoController->actionEliminarImagen()
+#4 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#5 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#7 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#8 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#10 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#16 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/eliminarImagen/1?imgid=7
+in C:\wamp\www\carro-felinos\protected\models\Imagen.php (23)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (165)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:50:17 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:50:17 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:50:23 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:50:23 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:52:16 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 01:52:16 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 04:47:54 [error] [php] Missing argument 1 for CActiveForm::dropDownList(), called in C:\wamp\www\carro-felinos\protected\views\producto\_form.php on line 56 and defined (C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php:762)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): ProductoController->renderInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#2 C:\wamp\www\carro-felinos\protected\views\producto\update.php(21): ProductoController->renderPartial()
+#3 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): ProductoController->renderInternal()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(783): ProductoController->renderPartial()
+#7 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(90): ProductoController->render()
+#8 unknown(0): ProductoController->actionUpdate()
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#10 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#13 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#16 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#20 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#21 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/update/1
+in C:\wamp\www\carro-felinos\protected\views\producto\_form.php (56)
+in C:\wamp\www\carro-felinos\protected\views\producto\update.php (21)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (90)
+2013/01/08 05:14:27 [error] [php] Missing argument 1 for CActiveForm::dropDownList(), called in C:\wamp\www\carro-felinos\protected\views\producto\_form.php on line 56 and defined (C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php:762)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): ProductoController->renderInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#2 C:\wamp\www\carro-felinos\protected\views\producto\update.php(21): ProductoController->renderPartial()
+#3 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#4 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): ProductoController->renderInternal()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(783): ProductoController->renderPartial()
+#7 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(90): ProductoController->render()
+#8 unknown(0): ProductoController->actionUpdate()
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#10 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#13 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#16 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#17 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#18 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#19 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#20 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#21 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#22 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/update/1
+in C:\wamp\www\carro-felinos\protected\views\producto\_form.php (56)
+in C:\wamp\www\carro-felinos\protected\views\producto\update.php (21)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (90)
+2013/01/08 05:29:31 [error] [php] include(Categorias.php): failed to open stream: No such file or directory (C:\wamp\www\carro-felinos\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\protected\views\producto\_form.php(56): spl_autoload_call()
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): ProductoController->renderInternal()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#4 C:\wamp\www\carro-felinos\protected\views\producto\update.php(21): ProductoController->renderPartial()
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): ProductoController->renderInternal()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(870): ProductoController->renderFile()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(783): ProductoController->renderPartial()
+#9 C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php(90): ProductoController->render()
+#10 unknown(0): ProductoController->actionUpdate()
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs()
+#12 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): ProductoController->runAction()
+#15 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#16 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CAccessControlFilter->filter()
+#17 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): ProductoController->filterAccessControl()
+#18 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter()
+#19 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#20 C:\wamp\www\carro-felinos\framework\web\CController.php(266): ProductoController->runActionWithFilters()
+#21 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): ProductoController->run()
+#22 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#23 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#24 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/producto/update/1
+in C:\wamp\www\carro-felinos\protected\views\producto\_form.php (56)
+in C:\wamp\www\carro-felinos\protected\views\producto\update.php (21)
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (90)
+2013/01/08 06:27:15 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:27:15 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:29:12 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:29:12 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:29:55 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:29:55 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:31:12 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 06:31:12 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:55:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listarProductosPorCategoria".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('listarProductos...')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('listarProductos...')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/listarProd...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/listarProductosPorCategoria
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/08 07:56:38 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:56:38 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:57:16 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:57:16 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:57:26 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:57:26 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:57:32 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:57:32 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:58:17 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:58:17 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:58:42 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/08 07:58:42 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (13)

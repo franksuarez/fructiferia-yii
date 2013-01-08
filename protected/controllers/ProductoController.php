@@ -25,7 +25,7 @@ class ProductoController extends Controller {
 	public function accessRules() {
 		return array( array('allow', // allow all users to perform 'index' and 'view' actions
 		'actions' => array('index', 'view'), 'users' => array('*'), ), array('allow', // allow authenticated user to perform 'create' and 'update' actions
-		'actions' => array('create', 'update', 'agregarImagen'), 'users' => array('@'), ), array('allow', // allow admin user to perform 'admin' and 'delete' actions
+		'actions' => array('create', 'update', 'agregarImagen', 'eliminarImagen'), 'users' => array('@'), ), array('allow', // allow admin user to perform 'admin' and 'delete' actions
 		'actions' => array('admin', 'delete'), 'users' => array('admin'), ), array('deny', // deny all users
 		'users' => array('*'), ), );
 	}
@@ -37,8 +37,11 @@ class ProductoController extends Controller {
 	public function actionView($id) {
 		Yii::app() -> clientScript -> registerScriptFile(Yii::app() -> baseUrl . '/js/jquery.fancybox/jquery.fancybox.js');
 		Yii::app() -> clientScript -> registerScriptFile(Yii::app() -> baseUrl . '/js/funciones.js');
+		
+		$imagenes = new Imagen;
+		$ruta = new Configuracion;
 
-		$this -> render('view', array('model' => $this -> loadModel($id), ));
+		$this -> render('view', array('model' => $this -> loadModel($id), 'imagenes' => $imagenes->findAll('producto_id = ' . $id), 'ruta' => $ruta->findByPk(1)->configuracion_valor));
 	}
 
 	/**
@@ -53,7 +56,7 @@ class ProductoController extends Controller {
 
 		if (isset($_POST['Producto'])) {
 			$model -> attributes = $_POST['Producto'];
-			$model -> producto_fecha_ingreso = date('d-m-Y H:i:s');
+			$model -> producto_fecha_ingreso = new CDbExpression('NOW()');
 
 			if ($model -> save()) {
 				$model -> producto_codigo = 'PR-' . str_pad($model -> producto_id, 5, "0", STR_PAD_LEFT);
@@ -79,7 +82,7 @@ class ProductoController extends Controller {
 
 		if (isset($_POST['Producto'])) {
 			$model -> attributes = $_POST['Producto'];
-			$model -> producto_fecha_modificacion = date('d-m-Y H:i:s');
+			$model -> producto_fecha_modificacion = new CDbExpression('NOW()');
 			if ($model -> save())
 				$this -> redirect(array('view', 'id' => $model -> producto_id));
 		}
@@ -121,10 +124,12 @@ class ProductoController extends Controller {
 		$this -> render('admin', array('model' => $model, ));
 	}
 
-	public function actionAgregarImagen() {
+	public function actionAgregarImagen($id) {
 		$this->layout = 'ajax';
 		
 		$model = new ImagenProducto;
+		$imagen = new Imagen;
+		$ruta = new Configuracion;
 
 		// uncomment the following code to enable ajax-based validation
 		/*
@@ -137,15 +142,32 @@ class ProductoController extends Controller {
 
 		if (isset($_POST['ImagenProducto'])) {
 			$model -> attributes = $_POST['ImagenProducto'];
-			echo "<pre>"; print_r($_FILES); echo "</pre>";
-			echo "<pre>"; print_r($_POST); echo "</pre>";
-			if ($model -> validate()) {
-				// form inputs are valid, do something here
-				return;
+			//echo "<pre>"; print_r($_FILES); echo "</pre>"; exit();
+			//echo "<pre>"; print_r($_POST); echo "</pre>";
+			$imagen->producto_id = $id;
+			
+			if($imagen->save()) {
+				$imagen_nombre = 'PI-' . str_pad($imagen->imagen_id, 6, "0", STR_PAD_LEFT) . '-' . str_replace(' ', '_', $_FILES["ImagenProducto"]["name"]['archivo']);
+				$imagen->imagen_nombre = $imagen_nombre;
+				
+				if($imagen->save()) {
+					if(move_uploaded_file($_FILES["ImagenProducto"]["tmp_name"]['archivo'],  $ruta->findByPk(1)->configuracion_valor. '/' . $imagen_nombre)) {
+						$this -> redirect(array('producto/view', 'id' => $id));
+					}
+				}
 			}
 		}
 		
-		$this -> render('agregarImagen', array('model' => $model));
+		$this -> render('agregarImagen', array('model' => $model, 'id' => $id));
+	}
+
+	public function actionEliminarImagen($id) {
+		$imagen = Imagen::model()->findByPk($_GET['imgid']);
+		//echo Configuracion::model()->findByPk(1)->configuracion_valor; exit();
+		@unlink(Configuracion::model()->findByPk(1)->configuracion_valor . '\\' . $imagen->imagen_nombre);
+		$imagen->delete();
+		
+		$this -> redirect(array('producto/view', 'id' => $id));
 	}
 
 	/**

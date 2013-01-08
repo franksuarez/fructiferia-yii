@@ -13,7 +13,7 @@ $this->menu=array(
 	array('label'=>'Editar Producto', 'url'=>array('update', 'id'=>$model->producto_id)),
 	array('label'=>'Eliminar Producto', 'url'=>'#', 'linkOptions'=>array('submit'=>array('delete','id'=>$model->producto_id),'confirm'=>'Are you sure you want to delete this item?')),
 	array('label'=>'Administrar Productos', 'url'=>array('admin')),
-        array('label'=>'Agregar Imagen', 'url'=>array('agregarImagen'), 'linkOptions'=>array('id' => 'agregarImagen')),
+        array('label'=>'Agregar Imagen', 'url'=>array('agregarImagen', 'id' => $model->producto_id), 'linkOptions'=>array('id' => 'agregarImagen')),
 );
 ?>
 
@@ -33,3 +33,21 @@ $this->menu=array(
 		'unidad_venta_id',
 	),
 )); ?>
+
+<div style="height: 20px;"></div>
+
+<h1>Imágenes del Producto</h1>
+
+<div style="height: 20px;"></div>
+
+<ul id="imagenes_producto">
+<?php foreach($imagenes as $imagen): ?>
+	<li>
+		<?php echo CHtml::image(Yii::app()->baseUrl . '/images/productos/' . $imagen->imagen_nombre, '', array('class' => 'img_producto')); ?>
+		<?php echo CHtml::link(CHtml::image(Yii::app()->baseUrl . '/images/trash_16x16.gif', 'Eliminar', array('class' => 'icon')),
+					array('producto/eliminarImagen', 'id' => $model->producto_id, 'imgid' => $imagen->imagen_id),
+					array('confirm' => '¿Desea eliminar la imagen?')
+					);?>
+	</li>
+<?php endforeach; ?>
+</ul>

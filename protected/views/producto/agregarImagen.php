@@ -13,7 +13,7 @@
 	'enctype' => 'multipart/form-data',
 	'action' => 'agregarImagen', )
 )); ?>
-
+	<input type="hidden" value="<?php echo $id; ?>" name="ImagenProducto[producto_id]" />
 	<div class="row">
 		<?php echo $form->labelEx($model,'archivo'); ?>
 		<?php echo $form->fileField($model,'archivo'); ?>
