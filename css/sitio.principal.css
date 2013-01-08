@@ -1,53 +1,74 @@
 .nav_container {
-    background:                             url(../images/header_block_bg.png) left top repeat-x;
-    -moz-border-radius:                     3px 3px 0 0;
-    border-radius:                          3px 3px 0 0;
+	background: url(../images/header_block_bg.png) left top repeat-x;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
 }
 
 #nav {
-    margin:                                 0px 0px 0px 0px;
-    padding:                                10px 0px 11px 15px;
+	margin: 0px 0px 0px 0px;
+	padding: 10px 0px 11px 15px;
 }
 
 #nav li {
-    margin:                                 0px 0px 0px 0px;
-    padding:                                0px 0px 0px 0px;
-    list-style-type:                        none;
-    color:                                  #FFFFFF;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	list-style-type: none;
+	color: #FFFFFF;
 }
 
 .block-title {
-    padding:                                5px 10px 4px;
-    /*border-bottom:                          1px solid #D8D8D8;*/
-    background:                             url(../images/sideblock_title_bg.jpg) left top repeat-x #F1F1F1;
-    -moz-border-radius:                     3px 3px 0 0;
-    border-radius:                          3px 3px 0 0;
-    color:                                  #FFFFFF;
-    font-size:                              1.16em;
+	padding: 5px 10px 4px;
+	/*border-bottom:                          1px solid #D8D8D8;*/
+	background: url(../images/sideblock_title_bg.jpg) left top repeat-x #F1F1F1;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	color: #FFFFFF;
+	font-size: 1.16em;
 }
 .block-content {
-    background-color:                       #FFFFFF;
-    padding:                                5px 5px 5px 5px;
+	background-color: #FFFFFF;
+	padding: 5px 5px 5px 5px;
 }
 
-.header-block-2{
-    background-color:                       #58585A;
-    padding:                                10px 0px 10px;
-    color:                                  #fff;
-    -moz-border-radius:                     0 0 3px 3px;
-    border-radius:                          0 0 3px 3px;
+.header-block-2 {
+	background-color: #58585A;
+	padding: 10px 0px 10px;
+	color: #fff;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
 }
-.links li { display:inline; }
-.links { float:right; }
-.links li{padding-left: 10px;}
-.links li a{white-space:nowrap; color: #969292; text-decoration: none;}
-.links li a:hover{color: #fff; text-decoration: none;}
-.links { text-align:right; margin:0px 10px 0px 0px; }
-.links a { text-decoration:none; position:relative; }
-.links a:hover { text-decoration:underline; }
+.links li {
+	display: inline;
+}
+.links {
+	float: right;
+}
+.links li {
+	padding-left: 10px;
+}
+.links li a {
+	white-space: nowrap;
+	color: #969292;
+	text-decoration: none;
+}
+.links li a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+.links {
+	text-align: right;
+	margin: 0px 10px 0px 0px;
+}
+.links a {
+	text-decoration: none;
+	position: relative;
+}
+.links a:hover {
+	text-decoration: underline;
+}
 .welcome-msg {
-    float: left;
-    margin: 0px 0px 0px 10px;
+	float: left;
+	margin: 0px 0px 0px 10px;
 }
 
 #categorias {
@@ -72,4 +93,64 @@
 }
 #categorias li a:hover {
 	color: #25A230;
+}
+
+.producto {
+	width: 135px;
+	/*border: 1px solid red;*/
+	float: left;
+	text-align: center;
+}
+.producto .imglista {
+	width: 120px;
+	height: 120px;
+	margin: 10px 0px 0px 0px;
+	border: 2px solid #CCCCCC;
+}
+.producto .nombre {
+	color: #58585A;
+	text-align: left;
+	margin: 0px 0px 0px 6px;
+}
+.producto .precio {
+	color: #F19108;
+	text-align: left;
+	margin: 0px 0px 0px 6px;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+button.button {
+	overflow: visible;
+	width: auto;
+	border: 0;
+	padding: 0;
+	margin: 0;
+	background: transparent;
+	cursor: pointer;
+}
+button.button span {
+	float: left;
+	height: 24px;
+	background: transparent url(../images/bkg_button.png) 0 0 no-repeat;
+	padding: 0 0 0 8px;
+	font: 11px Arial, Helvetica, sans-serif;
+	text-align: center;
+	white-space: nowrap;
+	color: white;
+}
+button.button span span {
+	background-position: 100% 0;
+	padding: 4px 10px 0 0;
+}
+button.button:hover span span {
+	background-position: 100% 0;
+}
+button.button:hover span {
+	background: transparent url(../images/bkg_button_active.png) 0 0 no-repeat;
+}
+button {
+	font: 10px Arial, Helvetica, sans-serif;
+	vertical-align: middle;
+	color: #929292;
 }

@@ -67,6 +67,7 @@ class Producto extends CActiveRecord
 		return array(
 			'categoria' => array(self::BELONGS_TO, 'Categoria', 'categoria_id'),
 			'unidadVenta' => array(self::BELONGS_TO, 'UnidadVenta', 'unidad_venta_id'),
+			'imagen' => array(self::HAS_MANY, 'Imagen', 'producto_id')
 		);
 	}
 

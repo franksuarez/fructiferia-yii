@@ -99,5 +99,20 @@ class SiteController extends Controller {
         Yii::app()->user->logout();
         $this->redirect(Yii::app()->homeUrl);
     }
+	
+	public function actionListarProductosPorCategoria($id) {
+		$this->layout = 'sitio';
+		
+		$categorias = Categoria::model()->findAll();
+		$nombreCategoria = Categoria::model()->findByPk($id)->categoria_nombre;
+		$productos = Producto::model()->with('categoria', 'unidadVenta', 'imagen')->findAll(array('order'=>'producto_nombre', 'condition'=>'categoria.categoria_id = ' . $id));
+		
+		$this->render('listarProductosPorCategoria',
+						array(
+							'productos' => $productos,
+							'categorias' => $categorias,
+							'nombreCategoria' => $nombreCategoria
+							));
+	}
 
 }
