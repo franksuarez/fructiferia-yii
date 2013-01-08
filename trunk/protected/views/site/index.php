@@ -4,7 +4,7 @@
         <div class="block-content">
         	<ul id="categorias">
         	<?php foreach($categorias as $categoria): ?>
-        		<li><?php echo CHtml::link($categoria->categoria_nombre, array('listarProductosPorCategoria')); ?></li>
+        		<li><?php echo CHtml::link($categoria->categoria_nombre, array('listarProductosPorCategoria', 'id' => $categoria->categoria_id)); ?></li>
         	<?php endforeach; ?>
         	</ul>
         </div>
