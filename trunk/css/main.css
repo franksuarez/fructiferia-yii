@@ -228,3 +228,30 @@ div.search-form
 {
 	background: #80CFFF;
 }
+
+#imagenes_producto {
+	margin: 0px;
+	padding: 0px;
+}
+#imagenes_producto li {
+	position: relative;
+	margin: 10px;
+	padding: 2px;
+	list-style-type: none;
+	float: left;
+	width: 150px;
+	height: 150px;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+#imagenes_producto .img_producto {
+	width: 148px;
+	height: 149px;
+}
+#imagenes_producto .icon {
+	position: absolute;
+	top: 5px;
+	left: 133px;
+	width: 16px:
+	height: 16px;
+}

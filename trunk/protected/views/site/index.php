@@ -1,7 +1,13 @@
 <div class="grid_5">
     <div class="block-container">
         <div class="block-title">Categorías</div>
-        <div class="block-content">Contenido</div>
+        <div class="block-content">
+        	<ul id="categorias">
+        	<?php foreach($categorias as $categoria): ?>
+        		<li><?php echo CHtml::link($categoria->categoria_nombre, array('listarProductosPorCategoria')); ?></li>
+        	<?php endforeach; ?>
+        	</ul>
+        </div>
     </div>
 </div>
 
