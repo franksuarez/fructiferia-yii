@@ -8,7 +8,3 @@ $(document).ready(function() {
 		'overlayShow'	:	false
 	});
 });
-
-function setLocation() {
-	
-}

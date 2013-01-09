@@ -21,11 +21,7 @@
             		<div class="nombre"><?php echo $producto->producto_nombre; ?></div>
             		<div class="precio">$<?php echo $producto->producto_precio; ?> / <?php echo $producto->unidadVenta->unidad_venta_nombre; ?></div>
             		<div style="text-align: left; margin: 0px 0px 0px 6px;">
-            			<button type="button" title="Add to Cart" class="button" onclick="">
-            				<span>
-            					<span>Agregar al Carro</span>
-            				</span>
-            			</button>
+            			<?php echo CHtml::link('Agregar al Carro', array('carro/agregarProductoCarro', 'id' => $producto->producto_id), array('class' => 'button addToCart')); ?>
             		</div>
             	</div>
             <?php endforeach; ?>
