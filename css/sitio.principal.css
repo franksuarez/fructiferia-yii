@@ -120,37 +120,86 @@
 	font-size: 18px;
 }
 
-button.button {
-	overflow: visible;
-	width: auto;
-	border: 0;
-	padding: 0;
-	margin: 0;
-	background: transparent;
+/* button */
+a.button {
+	display: inline-block;
+	text-decoration: none;
 	cursor: pointer;
+	background: url('../images/button.png') 0 top repeat-x;
+	font-size:11px;
+	text-transform:uppercase;
+	line-height:18px;
+	white-space:nowrap;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
 }
-button.button span {
-	float: left;
-	height: 24px;
-	background: transparent url(../images/bkg_button.png) 0 0 no-repeat;
-	padding: 0 0 0 8px;
-	font: 11px Arial, Helvetica, sans-serif;
+a.button {
+	color: #fff;
+	display: inline-block;
+	padding:3px 6px;
+}
+a.button:hover {
+	background: url('../images/button.png') 0 bottom repeat-x;
+}
+a.button:hover {
+	color: #fff;
+}
+a.addToCart {
+	background: url('../images/button.png') 0 bottom repeat-x;
+}
+a.addToCart:hover {
+	background: url('../images/button.png') 0 top repeat-x;
+}
+
+#grid_productos_carro {
+	width: 870px;
+	margin: 0 auto;
+	border: 1px solid #CCCCCC;
+}
+#grid_productos_carro th {
+	background-color: #F1F1F1;
+	color: black;
+	text-transform: uppercase;
 	text-align: center;
-	white-space: nowrap;
-	color: white;
-}
-button.button span span {
-	background-position: 100% 0;
-	padding: 4px 10px 0 0;
-}
-button.button:hover span span {
-	background-position: 100% 0;
-}
-button.button:hover span {
-	background: transparent url(../images/bkg_button_active.png) 0 0 no-repeat;
-}
-button {
+	padding: 6px;
 	font: 10px Arial, Helvetica, sans-serif;
-	vertical-align: middle;
-	color: #929292;
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+}
+#grid_productos_carro td {
+	text-align: left;
+	padding: 6px;
+	font: 12px Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	border: 1px solid #CCCCCC;
+	text-align: center;
+}
+#grid_productos_carro .imagen {
+	width: 100px;
+}
+#grid_productos_carro .nombre {
+	width: 380px;
+}
+#grid_productos_carro .precio_unitario {
+	width: 120px;
+}
+#grid_productos_carro .cantidad {
+	width: 100px;
+}
+#grid_productos_carro .subtotal {
+	width: 120px;
+}
+#grid_productos_carro .eliminar {
+	width: 50px;
+}
+#grid_productos_carro .imagen_p {
+	text-align: center;
+}
+#grid_productos_carro .imagen_p img {
+	width: 80px;
+	height: 80px;
+	border: 1px solid #DDDDDD;
+}
+#grid_productos_carro input[type="text"] {
+	width: 40px;
 }

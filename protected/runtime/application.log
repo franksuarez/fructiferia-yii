@@ -1868,3 +1868,129 @@ Stack trace:
 REQUEST_URI=/carro-felinos/site/listarProductosPorCategoria/1
 HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/2
 ---
+2013/01/09 00:12:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/button.png".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('image/button.pn...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/image/button.png
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:12:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/button.png".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('image/button.pn...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/image/button.png
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:13:58 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/button.png".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('image/button.pn...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/image/button.png
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:14:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/button.png".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('image/button.pn...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/image/button.png
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:16:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/button.png".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('image/button.pn...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/image/button.png
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:16:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "image/button.png".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('image/button.pn...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/image/button.png
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:46:03 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in C:\wamp\www\carro-felinos\framework\web\CController.php:337
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(310): CController->invalidActionParams(Object(CInlineAction))
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#2 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarProducto...')
+#4 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/agregarPr...')
+#5 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#6 C:\wamp\www\carro-felinos\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/carro-felinos/carro/agregarProductoCarro
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/09 00:50:20 [error] [php] Undefined index: carro (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:14)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CInlineAction->runWithParamsInternal()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#4 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#5 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\carro-felinos\index.php(13): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/agregarProductoCarro/4
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (14)
+in C:\wamp\www\carro-felinos\index.php (13)
+2013/01/09 15:04:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "listarProductosPorCategoria".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('listarProductos...')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('listarProductos...')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('producto/listar...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(16): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/producto/listarProductosPorCategoria/1
+---
+2013/01/09 16:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/productos/Guinda".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('images/producto...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/productos/Guinda
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/09 16:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/productos/Pera".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('images/producto...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/productos/Pera
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/09 16:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/productos/Manzana Verde".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('images/producto...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/productos/Manzana%20Verde
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/09 16:53:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "images/productos/Manzana Roja".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('images/producto...')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/images/productos/Manzana%20Roja
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---

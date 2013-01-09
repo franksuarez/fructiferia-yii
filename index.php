@@ -1,5 +1,10 @@
 <?php
 session_start();
+//unset($_SESSION['carro']);
+if(!isset($_SESSION['carro']))
+	$_SESSION['carro'] = array();
+
+//echo "<pre>"; print_r($_SESSION['carro']); echo "</pre>";
 // change the following paths if necessary
 $yii=dirname(__FILE__).'../framework/yii.php';
 $config=dirname(__FILE__).'/protected/config/main.php';
