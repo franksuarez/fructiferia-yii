@@ -100,6 +100,18 @@ class SiteController extends Controller {
         $this->redirect(Yii::app()->homeUrl);
     }
 	
+	public function actionCrearCuentaCliente() {
+		$this->layout = 'sitio';
+		$cliente = new Cliente;
+		
+		if(isset($_POST['Cliente']))  {
+			$cliente->attributes = $_POST['Cliente'];
+			$cliente->save();
+		}
+		
+		$this->render('crearCuentaCliente', array('cliente' => $cliente));
+	}
+	
 	public function actionListarProductosPorCategoria($id) {
 		$this->layout = 'sitio';
 		

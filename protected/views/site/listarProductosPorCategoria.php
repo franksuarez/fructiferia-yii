@@ -15,17 +15,20 @@
     <div class="block-container">
         <div class="block-title"><?php echo $nombreCategoria; ?></div>
         <div class="block-content">
-            <?php foreach($productos as $producto): ?>
-            	<div class="producto">
-            		<?php echo CHtml::image(Yii::app()->baseUrl . '/images/productos/' . $producto->imagen[0]->imagen_nombre, $producto->producto_nombre, array('class' => 'imglista')) ?>
-            		<div class="nombre"><?php echo $producto->producto_nombre; ?></div>
-            		<div class="precio">$<?php echo $producto->producto_precio; ?> / <?php echo $producto->unidadVenta->unidad_venta_nombre; ?></div>
-            		<div style="text-align: left; margin: 0px 0px 0px 6px;">
-            			<?php echo CHtml::link('Agregar al Carro', array('carro/agregarProductoCarro', 'id' => $producto->producto_id), array('class' => 'button addToCart')); ?>
-            		</div>
-            	</div>
-            <?php endforeach; ?>
-            
+        	<?php if(count($productos) > 0): ?>
+	            <?php foreach($productos as $producto): ?>
+	            	<div class="producto">
+	            		<?php echo CHtml::image(Yii::app()->baseUrl . '/images/productos/' . $producto->imagen[0]->imagen_nombre, $producto->producto_nombre, array('class' => 'imglista')) ?>
+	            		<div class="nombre"><?php echo $producto->producto_nombre; ?></div>
+	            		<div class="precio">$<?php echo $producto->producto_precio; ?> / <?php echo $producto->unidadVenta->unidad_venta_nombre; ?></div>
+	            		<div style="text-align: left; margin: 0px 0px 0px 6px;">
+	            			<?php echo CHtml::link('Agregar al Carro', array('carro/agregarProductoCarro', 'id' => $producto->producto_id), array('class' => 'button')); ?>
+	            		</div>
+	            	</div>
+	            <?php endforeach; ?>
+	        <?php else: ?>
+	        	No existen productos para la categoría seleccionada.
+            <?php endif; ?>
             <div class="clear"></div>
         </div>
     </div>

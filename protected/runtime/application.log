@@ -1994,3 +1994,224 @@ Stack trace:
 REQUEST_URI=/carro-felinos/images/productos/Manzana%20Roja
 HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
 ---
+2013/01/09 20:30:32 [error] [php] include(CHml.php): failed to open stream: No such file or directory (C:\wamp\www\carro-felinos\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php(37): spl_autoload_call()
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CarroController->renderInternal()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CarroController->renderFile()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CarroController->renderPartial()
+#5 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(12): CarroController->render()
+#6 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#11 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\carro-felinos\index.php(18): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (37)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (12)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/09 20:33:14 [error] [php] include(CHml.php): failed to open stream: No such file or directory (C:\wamp\www\carro-felinos\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php(37): spl_autoload_call()
+#1 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CarroController->renderInternal()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CarroController->renderFile()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CarroController->renderPartial()
+#5 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(12): CarroController->render()
+#6 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#11 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#12 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\carro-felinos\index.php(18): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (37)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (12)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/09 21:05:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "javascript:actualizarProductosCarro();".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('javascript:actu...')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('javascript:actu...')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/javascrip...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/carro/javascript:actualizarProductosCarro();
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/09 21:09:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "actualizarCarro".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('actualizarCarro')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('actualizarCarro')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/actualiza...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/carro/actualizarCarro
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/09 21:10:02 [error] [php] Illegal string offset 'idproducto' (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:37)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(18): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/actualizarProductosCarro
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (37)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/09 21:11:03 [error] [php] Illegal string offset 'idproducto' (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:38)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(18): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/actualizarProductosCarro
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (38)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/09 22:25:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "eliminarProductosCarro".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('eliminarProduct...')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarProduct...')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/eliminarP...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/carro/eliminarProductosCarro
+---
+2013/01/11 03:23:47 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\ClienteController.php (72)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 03:23:47 [error] [exception.CException] exception 'CException' with message 'Property "Cliente.password" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('password')
+#1 C:\wamp\www\carro-felinos\framework\validators\CCompareValidator.php(83): CActiveRecord->__get('password')
+#2 C:\wamp\www\carro-felinos\framework\validators\CValidator.php(214): CCompareValidator->validateAttribute(Object(Cliente), 'password')
+#3 C:\wamp\www\carro-felinos\framework\base\CModel.php(158): CValidator->validate(Object(Cliente), NULL)
+#4 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(795): CModel->validate(NULL)
+#5 C:\wamp\www\carro-felinos\protected\controllers\ClienteController.php(73): CActiveRecord->save()
+#6 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): ClienteController->actionCreate()
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(134): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\carro-felinos\framework\web\filters\CFilter.php(41): CFilterChain->run()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(1146): CFilter->filter(Object(CFilterChain))
+#11 C:\wamp\www\carro-felinos\framework\web\filters\CInlineFilter.php(59): CController->filterAccessControl(Object(CFilterChain))
+#12 C:\wamp\www\carro-felinos\framework\web\filters\CFilterChain.php(131): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(292): CFilterChain->run()
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('create')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('cliente/create')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/cliente/create
+HTTP_REFERER=http://localhost:90/carro-felinos/cliente/create
+---
+2013/01/11 03:24:30 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\ClienteController.php (72)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 03:48:31 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "crearCuentaCliente".' in C:\wamp\www\carro-felinos\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('crearCuentaClie...', NULL, true)
+#1 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(105): CController->render('crearCuentaClie...')
+#2 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionCrearCuentaCliente()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('crearCuentaClie...')
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/crearCuent...')
+#8 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\carro-felinos\index.php(18): CApplication->run()
+#10 {main}
+REQUEST_URI=/carro-felinos/site/crearCuentaCliente
+HTTP_REFERER=http://localhost:90/carro-felinos/
+---
+2013/01/11 03:55:34 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\crearCuentaCliente.php:9)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(107): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionCrearCuentaCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(18): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/crearCuentaCliente
+in C:\wamp\www\carro-felinos\protected\views\site\crearCuentaCliente.php (9)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (107)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 04:24:00 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (108)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 04:26:38 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (108)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 04:30:56 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (108)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 04:34:17 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (108)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/11 04:35:04 [warning] [application] Failed to set unsafe attribute "password_repeat" of "Cliente".
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (108)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/14 19:08:41 [error] [php] print_r() expects at least 1 parameter, 0 given (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:57)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#2 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#4 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#5 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#6 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\wamp\www\carro-felinos\index.php(18): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (57)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (11)
+in C:\wamp\www\carro-felinos\index.php (18)
+2013/01/14 19:43:05 [error] [php] Undefined index: total_carro (C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php:53)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CarroController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CarroController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(12): CarroController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (53)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (12)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/14 20:00:43 [error] [php] Undefined index: total_carro (C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php:53)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CarroController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CarroController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(12): CarroController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (53)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (12)
+in C:\wamp\www\carro-felinos\index.php (20)

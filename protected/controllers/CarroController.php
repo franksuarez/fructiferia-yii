@@ -8,12 +8,12 @@ class CarroController extends Controller {
 	
 	public function actionListarProductosCarro() {
 		$this->layout = 'sitio';
-		
+		$this->getTotalCarro();
 		$this->render('listarProductosCarro');
 	}
 	
 	public function actionAgregarProductoCarro($id) {
-		if(in_array($id, $_SESSION['carro'])) {
+		if(isset($id, $_SESSION['carro'][$id])) {
 			$_SESSION['carro'][$id]['producto_cantidad'] = ($_SESSION['carro'][$id]['producto_cantidad'] + 1);
 		} else {
 			$producto = Producto::model()->with('categoria', 'unidadVenta', 'imagen')->findByPk($id);
@@ -29,10 +29,41 @@ class CarroController extends Controller {
 			$_SESSION['carro'][$id]['imagen_nombre'] = $producto->imagen[0]->imagen_nombre;
 		}
 		
-		$this -> redirect(array('/'));
+		$_SESSION['total_carro'] = $this->getTotalCarro();
+		
+		$this -> redirect(array('listarProductosCarro'));
+	}
+
+	public function actionActualizarProductosCarro() {
+		foreach($_POST['Carro'] as $carro){
+			$_SESSION['carro'][$carro['idproducto']]['producto_cantidad'] = $carro['cantidad'];
+		}
+		
+		$_SESSION['total_carro'] = $this->getTotalCarro();
+
+		$this->redirect(array('listarProductosCarro'));
 	}
 	
 	public function actionEliminarProductoCarro($id) {
 		unset($_SESSION['carro'][$id]);
+		
+		$this -> redirect(array('listarProductosCarro'));
+	}
+	
+	public function actionVaciarCarro() {
+		unset($_SESSION['carro']);
+		
+		$this -> redirect(array('/'));
+	}
+
+	public function getTotalCarro() {
+		$total = 0;
+		//echo "<pre>"; print_r($_SESSION['carro']); echo "</pre>"; exit();
+		foreach($_SESSION['carro'] as $carro) {
+			//echo "<pre>"; print_r($carro); echo "</pre>"; exit();
+			$total = $total + ($carro['producto_precio'] * $carro['producto_cantidad']);
+		}
+
+		return $total;
 	}
 }

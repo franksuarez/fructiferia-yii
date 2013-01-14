@@ -1,8 +1,10 @@
 <?php
 session_start();
 //unset($_SESSION['carro']);
-if(!isset($_SESSION['carro']))
+if(!isset($_SESSION['carro'])) {
 	$_SESSION['carro'] = array();
+	$_SESSION['total_carro'] = 0;
+}
 
 //echo "<pre>"; print_r($_SESSION['carro']); echo "</pre>";
 // change the following paths if necessary
