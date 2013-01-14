@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 09-01-2013 a las 20:17:52
+-- Tiempo de generación: 14-01-2013 a las 20:16:53
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -42,6 +42,32 @@ INSERT INTO `categoria` (`categoria_id`, `categoria_nombre`, `categoria_descripc
 (1, 'Frutas', '', 0),
 (2, 'Verduras', '', 0),
 (3, 'Ensaladas', '', 0);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `cliente`
+--
+
+CREATE TABLE IF NOT EXISTS `cliente` (
+  `cliente_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `cliente_nombre` varchar(255) DEFAULT NULL,
+  `cliente_ape_paterno` varchar(255) DEFAULT NULL,
+  `cliente_ape_materno` varchar(255) DEFAULT NULL,
+  `cliente_email` varchar(255) DEFAULT NULL,
+  `cliente_telefono` varchar(255) DEFAULT NULL,
+  `cliente_telefono_movil` varchar(255) DEFAULT NULL,
+  `cliente_password` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`cliente_id`),
+  UNIQUE KEY `uq_cliente_email` (`cliente_email`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `cliente`
+--
+
+INSERT INTO `cliente` (`cliente_id`, `cliente_nombre`, `cliente_ape_paterno`, `cliente_ape_materno`, `cliente_email`, `cliente_telefono`, `cliente_telefono_movil`, `cliente_password`) VALUES
+(1, 'Oscar', 'Cárdenas', 'Albornoz', 'cardenas1108@gmail.com', '9338112', '83055080', 'martincr8263');
 
 -- --------------------------------------------------------
 
