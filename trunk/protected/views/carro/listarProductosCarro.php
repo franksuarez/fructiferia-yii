@@ -2,6 +2,8 @@
 	<div class="block-title">Productos en el Carro</div>
 	<div class="block-content">
 		<div style="width: 100%;">
+			<?php if(count($_SESSION['carro']) > 0): ?>
+			<form id="form_actualizar_carro" method="post" action="<?php echo Yii::app()->baseUrl ?>/carro/actualizarProductosCarro">
 			<table id="grid_productos_carro">
 				<tr>
 					<th class="imagen">&nbsp;</th>
@@ -21,17 +23,34 @@
 						$<?php echo number_format($producto['producto_precio'], 0, ',', '.'); ?>
 					</td>
 					<td>
-						<input type="text" name="Carro[cantidad]" value="1"
+						<input type="hidden" name="Carro[<?php echo $producto['producto_id']; ?>][idproducto]" value="<?php echo $producto['producto_id']; ?>" />
+						<input type="text" name="Carro[<?php echo $producto['producto_id']; ?>][cantidad]" value="<?php echo $producto['producto_cantidad']; ?>" />
 					</td>
 					<td>
 						$<?php echo number_format(($producto['producto_precio'] * $producto['producto_cantidad']), 0, ',', '.'); ?>
 					</td>
 					<td>
-						<?php echo CHtml::link(CHtml::image(Yii::app()->baseUrl . '/images/trash_16x16_2.gif', 'Eliminar Producto'), array()) ?>
+						<?php echo CHtml::link(CHtml::image(Yii::app()->baseUrl . '/images/trash_16x16_2.gif', 'Eliminar Producto'), array('eliminarProductoCarro', 'id' => $producto['producto_id'])) ?>
 					</td>
 				</tr>
 				<?php endforeach; ?>
+				<tr>
+					<td colspan="6" style="background-color: #F1F1F1;">
+						<div style="float: left; width: 50%; text-align: left;">
+							<?php echo CHtml::link('Continuar Comprando', array('/'), array('class' => 'button')); ?>
+						</div>
+						
+						<div style="float: left; width: 50%; text-align: right;">
+							<a href="javascript:actualizarProductosCarro();" class="button">Actualizar Carro</a>
+						</div>
+					</td>
+				</tr>
 			</table>
+			</form>
+			<?php else: ?>
+			No tienes productos en tu carro.
+			<?php endif; ?>
+			<?php echo $_SESSION['total_carro']; ?>
 		</div>
 	</div>
 </div>

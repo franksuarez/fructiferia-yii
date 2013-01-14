@@ -23,6 +23,12 @@
 <div class="grid_5">
     <div class="block-container">
         <div class="block-title">Carro</div>
-        <div class="block-content">Contenido</div>
+        <div class="block-content">
+        	<ul>
+        	<?php foreach($_SESSION['carro'] as $key => $producto): ?>
+        		<li><?php echo $producto['producto_nombre']; ?></li>
+        	<?php endforeach; ?>
+        	</ul>
+        </div>
     </div>
 </div>

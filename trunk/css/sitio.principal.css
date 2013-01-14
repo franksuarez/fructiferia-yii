@@ -16,6 +16,10 @@
 	color: #FFFFFF;
 }
 
+ul {
+	list-style-type: none;
+}
+
 .block-title {
 	padding: 5px 10px 4px;
 	/*border-bottom:                          1px solid #D8D8D8;*/
@@ -95,6 +99,33 @@
 	color: #25A230;
 }
 
+div.form-cuenta-cliente label {
+	font-weight: bold;
+	font-size: 0.9em;
+	display: block;
+}
+div.form-cuenta-cliente input {
+	border: 1px solid #6C7170;
+	border-right-color: #D2CFCA;
+	border-bottom-color: #D2CFCA;
+	padding: 3px;
+}
+div.form-cuenta-cliente label.error {
+	color: #C00;
+}
+div.form-cuenta-cliente input.error {
+	background: #FEE;
+	border-color: #C00;
+}
+div.form-cuenta-cliente .errorMessage {
+	color: red;
+	font-size: 0.9em;
+}
+div.form-cuenta-cliente .required {
+	/*color: red;*/
+	font-size: 0.9em;
+}
+
 .producto {
 	width: 135px;
 	/*border: 1px solid red;*/
@@ -104,7 +135,7 @@
 .producto .imglista {
 	width: 120px;
 	height: 120px;
-	margin: 10px 0px 0px 0px;
+	margin: 6px 0px 0px 0px;
 	border: 2px solid #CCCCCC;
 }
 .producto .nombre {
@@ -137,17 +168,10 @@ a.button {
 	color: #fff;
 	display: inline-block;
 	padding:3px 6px;
-}
-a.button:hover {
 	background: url('../images/button.png') 0 bottom repeat-x;
 }
 a.button:hover {
 	color: #fff;
-}
-a.addToCart {
-	background: url('../images/button.png') 0 bottom repeat-x;
-}
-a.addToCart:hover {
 	background: url('../images/button.png') 0 top repeat-x;
 }
 
