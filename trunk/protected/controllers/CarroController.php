@@ -47,6 +47,8 @@ class CarroController extends Controller {
 	public function actionEliminarProductoCarro($id) {
 		unset($_SESSION['carro'][$id]);
 		
+		$_SESSION['total_carro'] = $this->getTotalCarro();
+		
 		$this -> redirect(array('listarProductosCarro'));
 	}
 	

@@ -227,3 +227,36 @@ a.button:hover {
 #grid_productos_carro input[type="text"] {
 	width: 40px;
 }
+
+#total_compra {
+	width: 870px;
+	margin: 0 auto;
+}
+#total_compra li {
+	float: left;
+}
+#total_compra .relacionados {
+	width: 290px;
+}
+#total_compra .cupondireccion {
+	width: 290px;
+}
+#total_compra .total_compra {
+	width: 290px;
+	text-align: right;
+}
+#total_compra .precio_total_compra {
+	width: 280px;
+	margin: 10px 0px 0px 0px;
+	padding: 4px;
+	background-color: #F1F1F1;
+	text-align: right;
+	border: 1px solid #CCCCCC;
+}
+#total_compra .contenedor_precio_total_compra td {
+	padding: 10px;
+}
+#total_compra .txt_precio_total {
+	font-size: 20px;
+	font-weight: bold;
+}

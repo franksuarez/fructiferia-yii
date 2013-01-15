@@ -50,7 +50,30 @@
 			<?php else: ?>
 			No tienes productos en tu carro.
 			<?php endif; ?>
-			<?php echo $_SESSION['total_carro']; ?>
 		</div>
+		
+		<ul id="total_compra">
+			<li class="relacionados">&nbsp;</li>
+			<li class="cupondireccion">&nbsp;</li>
+			<li class="total_compra">
+				<div class="precio_total_compra">
+					<table style="width: 100%;">
+						<tr>
+							<td style="vertical-align: middle;">TOTAL COMPRA</td>
+							<td style="text-align: right;">
+								<span class="txt_precio_total">$<?php echo number_format($_SESSION['total_carro'], 0, ',', '.'); ?></span>
+							</td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: right;">
+								<a href="" class="button">Finalizar Pedido</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</li>
+		</ul>
+		
+		<div class="clear"></div>
 	</div>
 </div>
