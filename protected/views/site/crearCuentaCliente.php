@@ -36,11 +36,11 @@
 					<?php echo $form->error($cliente, 'cliente_telefono_movil'); ?></li>
 				<li>
 					<?php echo $form->labelEx($cliente,'cliente_password'); ?>
-					<?php echo $form->textField($cliente, 'cliente_password', array('size'=>60,'maxlength'=>255)); ?>
+					<?php echo $form->passwordField($cliente, 'cliente_password', array('size'=>60,'maxlength'=>255)); ?>
 					<?php echo $form->error($cliente, 'cliente_password'); ?></li>
 				<li>
 					<?php echo $form->labelEx($cliente,'password_repeat'); ?>
-					<?php echo $form->textField($cliente, 'password_repeat', array('size'=>60,'maxlength'=>255)); ?>
+					<?php echo $form->passwordField($cliente, 'password_repeat', array('size'=>60,'maxlength'=>255)); ?>
 					<?php echo $form->error($cliente, 'password_repeat'); ?></li>
 			</ul>
 		</div>
