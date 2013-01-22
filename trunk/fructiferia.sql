@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 14-01-2013 a las 20:16:53
+-- Tiempo de generación: 22-01-2013 a las 19:41:52
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -60,14 +60,16 @@ CREATE TABLE IF NOT EXISTS `cliente` (
   `cliente_password` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`cliente_id`),
   UNIQUE KEY `uq_cliente_email` (`cliente_email`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Volcado de datos para la tabla `cliente`
 --
 
 INSERT INTO `cliente` (`cliente_id`, `cliente_nombre`, `cliente_ape_paterno`, `cliente_ape_materno`, `cliente_email`, `cliente_telefono`, `cliente_telefono_movil`, `cliente_password`) VALUES
-(1, 'Oscar', 'Cárdenas', 'Albornoz', 'cardenas1108@gmail.com', '9338112', '83055080', 'martincr8263');
+(1, 'Oscar', 'Cárdenas', 'Albornoz', 'cardenas1108@gmail.com', '9338112', '83055080', 'martincr8263'),
+(2, 'Oscar', 'Cárdenas', 'Albornoz', 'mudvayne450@hotmail.com', '9338112', '9338112', 'martincr8263'),
+(3, 'Oscar', 'Cárdenas', 'Albornoz', 'cardenas1108@hotmail.com', '9338112', '9338112', '123');
 
 -- --------------------------------------------------------
 
