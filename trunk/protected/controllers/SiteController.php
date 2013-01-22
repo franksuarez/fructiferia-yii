@@ -106,10 +106,26 @@ class SiteController extends Controller {
 		
 		if(isset($_POST['Cliente']))  {
 			$cliente->attributes = $_POST['Cliente'];
-			$cliente->save();
+			if($cliente->save()) {
+				$_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
+				$_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
+				$_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
+				$_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
+				$_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
+				$_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
+				$_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
+				
+				$this->redirect('panelControlCliente');
+			}
 		}
 		
 		$this->render('crearCuentaCliente', array('cliente' => $cliente));
+	}
+	
+	public function actionPanelControlCliente() {
+		$this->layout = 'sitio';
+		
+		$this->render('panelControlCliente');
 	}
 	
 	public function actionListarProductosPorCategoria($id) {
@@ -125,6 +141,36 @@ class SiteController extends Controller {
 							'categorias' => $categorias,
 							'nombreCategoria' => $nombreCategoria
 							));
+	}
+	
+	public function actionIniciarSesion() {
+		$this->layout = 'sitio';
+		
+		if(isset($_POST['Cliente'])) {
+			$cliente = Cliente::model()->find("cliente_email = '" . $_POST['Cliente']['cliente_email'] . "' and cliente_password = '" . $_POST['Cliente']['cliente_password'] . "'");
+			
+			if(isset($cliente)){
+				$_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
+				$_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
+				$_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
+				$_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
+				$_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
+				$_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
+				$_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
+				
+				$this->redirect('panelControlCliente');
+			} else {
+				$this->render('iniciarSesion');
+			}
+		} else {
+			$this->render('iniciarSesion');
+		}
+	}
+	
+	public function actionCerrarSesion() {
+		unset($_SESSION['Cliente']);
+		
+		$this->redirect(array('site/index'));
 	}
 
 }

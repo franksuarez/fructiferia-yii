@@ -2245,3 +2245,334 @@ REQUEST_URI=/carro-felinos/carro/listarProductosCarro
 in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (60)
 in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (12)
 in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/17 22:09:36 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\wamp\www\carro-felinos\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\carro-felinos\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Categoria))
+#7 C:\wamp\www\carro-felinos\protected\models\Categoria.php(21): CActiveRecord::model('Categoria')
+#8 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(32): Categoria::model()
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('')
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#15 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/carro-felinos/
+---
+2013/01/17 22:09:40 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\wamp\www\carro-felinos\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\carro-felinos\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Categoria))
+#7 C:\wamp\www\carro-felinos\protected\models\Categoria.php(21): CActiveRecord::model('Categoria')
+#8 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(32): Categoria::model()
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('')
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#15 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/carro-felinos/
+---
+2013/01/17 22:09:43 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\wamp\www\carro-felinos\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\carro-felinos\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Categoria))
+#7 C:\wamp\www\carro-felinos\protected\models\Categoria.php(21): CActiveRecord::model('Categoria')
+#8 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(32): Categoria::model()
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('')
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#15 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/carro-felinos/
+---
+2013/01/18 17:58:35 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\wamp\www\carro-felinos\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\carro-felinos\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\carro-felinos\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(Categoria))
+#7 C:\wamp\www\carro-felinos\protected\models\Categoria.php(21): CActiveRecord::model('Categoria')
+#8 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(32): Categoria::model()
+#9 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('')
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('')
+#15 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/carro-felinos/
+---
+2013/01/18 18:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "carro-felinos".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro-felinos')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/carro-felinos
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/20 19:44:48 [error] [php] Undefined index: Cliente (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:147)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (147)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 19:44:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('site')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('site')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/site/index')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/site/index
+---
+2013/01/20 19:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('site')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('site')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/site/index')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/site/index
+---
+2013/01/20 19:55:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "inciarSesion".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('inciarSesion')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('inciarSesion')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/inciarSesi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/inciarSesion
+---
+2013/01/20 19:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "inciarSesion".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('inciarSesion')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('inciarSesion')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/inciarSesi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/inciarSesion
+---
+2013/01/20 19:55:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "inciarSesion".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('inciarSesion')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('inciarSesion')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/inciarSesi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/inciarSesion
+---
+2013/01/20 19:55:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "inciarSesion".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('inciarSesion')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('inciarSesion')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/inciarSesi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/inciarSesion
+---
+2013/01/20 19:56:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "inciarSesion".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('inciarSesion')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('inciarSesion')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/inciarSesi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/inciarSesion
+---
+2013/01/20 20:03:00 [error] [php] Undefined variable: cliente (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:150)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (150)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:05:23 [error] [php] Undefined index: cliente_email (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:150)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (150)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:06:08 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com cliente_password = martincr8263' at line 1. The SQL statement executed was: SELECT * FROM `cliente` `t` WHERE cliente_email = cardenas1108@gmail.com cliente_password = martincr8263.
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (150)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:06:08 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com cliente_password = martincr8263' at line 1. The SQL statement executed was: SELECT * FROM `cliente` `t` WHERE cliente_email = cardenas1108@gmail.com cliente_password = martincr8263' in C:\wamp\www\carro-felinos\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(150): CActiveRecord->findAll('cliente_email =...')
+#4 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('iniciarSesion')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/iniciarSes...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+HTTP_REFERER=http://localhost:90/carro-felinos/site/iniciarSesion
+---
+2013/01/20 20:06:53 [error] [php] Undefined index: Cliente (C:\wamp\www\carro-felinos\protected\views\site\iniciarSesion.php:2)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(162): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\views\site\iniciarSesion.php (2)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (162)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:07:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "esion".' in C:\wamp\www\carro-felinos\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('esion')
+#1 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/carro-felinos/esion
+---
+2013/01/20 20:07:57 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and cliente_password = martincr8263' at line 1. The SQL statement executed was: SELECT * FROM `cliente` `t` WHERE cliente_email = cardenas1108@gmail.com and cliente_password = martincr8263.
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (150)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:07:57 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '@gmail.com and cliente_password = martincr8263' at line 1. The SQL statement executed was: SELECT * FROM `cliente` `t` WHERE cliente_email = cardenas1108@gmail.com and cliente_password = martincr8263' in C:\wamp\www\carro-felinos\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(150): CActiveRecord->findAll('cliente_email =...')
+#4 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('iniciarSesion')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/iniciarSes...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+HTTP_REFERER=http://localhost:90/carro-felinos/site/iniciarSesion
+---
+2013/01/20 20:08:28 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''martincr8263' at line 1. The SQL statement executed was: SELECT * FROM `cliente` `t` WHERE cliente_email = 'cardenas1108@gmail.com' and cliente_password = 'martincr8263.
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (150)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:08:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''martincr8263' at line 1. The SQL statement executed was: SELECT * FROM `cliente` `t` WHERE cliente_email = 'cardenas1108@gmail.com' and cliente_password = 'martincr8263' in C:\wamp\www\carro-felinos\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(150): CActiveRecord->findAll('cliente_email =...')
+#4 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('iniciarSesion')
+#9 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/iniciarSes...')
+#10 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#11 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#12 {main}
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+HTTP_REFERER=http://localhost:90/carro-felinos/site/iniciarSesion
+---
+2013/01/20 20:08:49 [error] [php] Trying to get property of non-object (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:153)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (153)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/20 20:09:11 [error] [exception.CException] exception 'CException' with message 'Cliente and its behaviors do not have a method or closure named "findBy".' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:266
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(226): CComponent->__call('findBy', Array)
+#1 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(150): CActiveRecord->__call('findBy', Array)
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(150): Cliente->findBy('cliente_email =...')
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('iniciarSesion')
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/iniciarSes...')
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+HTTP_REFERER=http://localhost:90/carro-felinos/site/iniciarSesion
+---
+2013/01/20 20:13:56 [error] [php] Undefined variable: _SEESION (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:171)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/cerrarSesion
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (171)
+in C:\wamp\www\carro-felinos\index.php (20)

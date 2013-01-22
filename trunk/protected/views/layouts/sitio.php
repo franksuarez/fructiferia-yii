@@ -19,7 +19,7 @@
         <div class="container_24">
             <div class="grid_24" style="margin: 20px 0px 20px 0px;">
                 <div style="width: 50%; float: left;">
-                    <?php echo CHtml::link(CHtml::image(Yii::app()->baseUrl . '/images/logo.png', 'Fructiferia'), array('/')); ?>
+                    <?php echo CHtml::link(CHtml::image(Yii::app()->baseUrl . '/images/logo.png', 'Fructiferia'), array('site/index')); ?>
                 </div>
                 <div style="width: 50%; float: left;"></div>
             </div>
@@ -31,17 +31,26 @@
             </div>
 
             <div class="grid_24 header-block-2">
-                <ul class="links">
-                    <li><a href="" title="Mi Cuenta">Mi Cuenta</a></li>
+            	<ul class="links">
+            		<li>
+						<?php echo CHtml::link('Mi Carro (' . count($_SESSION['carro']) .')', array('carro/listarProductosCarro'), array('title' => 'Mi Carro')); ?>
+					</li>
+            	<?php if(isset($_SESSION['Cliente'])): ?>
+                	<li>
+                		<?php echo CHtml::link('Mi Panel de Control', array('site/panelControlCliente')); ?>
+                	</li>
+                    <li><a href="" title="Mis Favoritos">Mis Favoritos</a></li>
+                    <li>
+                    	<?php echo CHtml::link('Cerrar Sesión (' . $_SESSION['Cliente']['cliente_nombre'] . ')', array('site/cerrarSesion')); ?>
+                    </li>
+                <?php else: ?>
                     <li>
                     	<?php echo CHtml::link('Crear Cuenta', array('site/crearCuentaCliente'), array('title' => 'Crear Cuenta')); ?>
                     </li>
-                    <li><a href="" title="Mis Favoritos">Mis Favoritos</a></li>
                     <li>
-						<?php echo CHtml::link('Mi Carro (' . count($_SESSION['carro']) .')', array('carro/listarProductosCarro'), array('title' => 'Mi Carro')); ?>
-					</li>
-                    <li><a href="" title="Terminar Pedido">Terminar Pedido</a></li>
-                    <li><a href="" title="Log In">Log In</a></li>
+                    	<?php echo CHtml::link('Log In', array('site/iniciarSesion')); ?>
+                    </li>
+                <?php endif; ?>
                 </ul>
                 <p class="welcome-msg">Bienvenido a nuestra tienda on-line</p>            
                 <br class="clear">
