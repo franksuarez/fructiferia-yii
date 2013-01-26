@@ -125,7 +125,11 @@ class SiteController extends Controller {
 	public function actionPanelControlCliente() {
 		$this->layout = 'sitio';
 		
-		$this->render('panelControlCliente');
+		$menuPanel = MenuPanelControlCliente::model()->findAll();
+		
+		$this->render('panelControlCliente'
+						,array('menuPanel' => $menuPanel)
+		);
 	}
 	
 	public function actionListarProductosPorCategoria($id) {
@@ -171,6 +175,30 @@ class SiteController extends Controller {
 		unset($_SESSION['Cliente']);
 		
 		$this->redirect(array('site/index'));
+	}
+	
+	public function actionModificarDatosCliente() {
+		$this->layout = 'sitio';
+		
+		$menuPanel = MenuPanelControlCliente::model()->findAll();
+		$cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
+		
+		if(isset($_POST['Cliente'])) {
+			$cliente->attributes = $_POST['Cliente'];
+			
+			$cliente->save();
+		}
+		
+		$this->render('modificarDatosCliente', array('cliente' => $cliente, 'menuPanel' => $menuPanel));
+	}
+
+	public function actionMisDireccionesDeEnvio() {
+		$this->layout = 'sitio';
+		
+		$menuPanel = MenuPanelControlCliente::model()->findAll();
+		$cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
+		
+		$this->render('direccionesDeEnvio', array('cliente' => $cliente, 'menuPanel' => $menuPanel));
 	}
 
 }

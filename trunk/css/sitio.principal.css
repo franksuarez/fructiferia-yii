@@ -99,6 +99,30 @@ ul {
 	color: #25A230;
 }
 
+#menu_panel_control {
+	margin: 0px;
+	padding: 0px;
+}
+#menu_panel_control li {
+	list-style-type: none;
+	margin: 0px;
+	padding: 3px 0px 3px 0px;
+	border-bottom: 1px solid #E0E0E0;
+}
+#menu_panel_control li a {
+	float: none;
+	padding: 4px 0 5px 18px;
+	font-weight: normal;
+	color: #383838;
+	background: url(../images/bullet_categorias.png) left 3px no-repeat;
+	line-height: normal;
+	font-size: 12px;
+	text-decoration: none;
+}
+#menu_panel_control li a:hover {
+	color: #25A230;
+}
+
 div.form-cuenta-cliente label {
 	font-weight: bold;
 	font-size: 0.9em;
