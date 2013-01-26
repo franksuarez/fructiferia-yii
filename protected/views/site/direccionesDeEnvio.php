@@ -2,7 +2,7 @@
 <div class="grid_17">
 	<div class="block-title">Panel de Control Clientes</div>
 	<div class="block-content">
-		<?php echo $_SESSION['Cliente']['cliente_nombre']; ?>
+		Direcciones de Envío
 	</div>
 </div>
 

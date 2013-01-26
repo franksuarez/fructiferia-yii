@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 22-01-2013 a las 19:41:52
+-- Tiempo de generación: 26-01-2013 a las 00:26:40
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -74,6 +74,63 @@ INSERT INTO `cliente` (`cliente_id`, `cliente_nombre`, `cliente_ape_paterno`, `c
 -- --------------------------------------------------------
 
 --
+-- Estructura de tabla para la tabla `comuna`
+--
+
+CREATE TABLE IF NOT EXISTS `comuna` (
+  `comuna_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `comuna_nombre` varchar(255) DEFAULT NULL,
+  `comuna_descripcion` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`comuna_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=39 ;
+
+--
+-- Volcado de datos para la tabla `comuna`
+--
+
+INSERT INTO `comuna` (`comuna_id`, `comuna_nombre`, `comuna_descripcion`) VALUES
+(1, 'Cerrillos', NULL),
+(2, 'Cerro Navia', NULL),
+(3, 'Conchalí', NULL),
+(4, 'El Bosque', NULL),
+(5, 'Estación Central', NULL),
+(6, 'Huechuraba', NULL),
+(7, 'Independencia', NULL),
+(8, 'La Cisterna', NULL),
+(9, 'La Florida', NULL),
+(10, 'La Granja', NULL),
+(11, 'La Pintana', NULL),
+(12, 'La Reina', NULL),
+(13, 'Las Condes', NULL),
+(14, 'Lo Barnechea', NULL),
+(15, 'Lo Espejo', NULL),
+(16, 'Lo Espejo', NULL),
+(17, 'Lo Prado', NULL),
+(18, 'Macul', NULL),
+(19, 'Maipú', NULL),
+(20, 'Ñuñoa', NULL),
+(21, 'Padre Hurtado', NULL),
+(22, 'Pedro Aguirre Cerda', NULL),
+(23, 'Peñalolen', NULL),
+(24, 'Pirque', NULL),
+(25, 'Providencia', NULL),
+(26, 'Pudahuel', NULL),
+(27, 'Puente Alto', NULL),
+(28, 'Quilicura', NULL),
+(29, 'Quinta Normal', NULL),
+(30, 'Recoleta', NULL),
+(31, 'Renca', NULL),
+(32, 'San Bernardo', NULL),
+(33, 'San Joaquín', NULL),
+(34, 'San José de Maipo', NULL),
+(35, 'San Miguel', NULL),
+(36, 'San Ramón', NULL),
+(37, 'Santiago', NULL),
+(38, 'Vitacura', NULL);
+
+-- --------------------------------------------------------
+
+--
 -- Estructura de tabla para la tabla `configuracion`
 --
 
@@ -91,6 +148,42 @@ CREATE TABLE IF NOT EXISTS `configuracion` (
 
 INSERT INTO `configuracion` (`configuracion_id`, `configuracion_nombre`, `configuracion_descripcion`, `configuracion_valor`) VALUES
 (1, 'Imágenes Productos', 'Ruta para la subida de imágenes de los productos', 'C:\\wamp\\www\\carro-felinos\\images\\productos');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `direccion`
+--
+
+CREATE TABLE IF NOT EXISTS `direccion` (
+  `direccion_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `direccion_descripcion` varchar(255) DEFAULT NULL,
+  `comuna_id` bigint(20) DEFAULT NULL,
+  `cliente_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`direccion_id`),
+  KEY `fk_direccion_comuna_comuna_id` (`comuna_id`),
+  KEY `fk_direccion_cliente_cliente_id` (`cliente_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `forma_pago`
+--
+
+CREATE TABLE IF NOT EXISTS `forma_pago` (
+  `forma_pago_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `forma_pago_nombre` varchar(255) DEFAULT NULL,
+  `forma_pago_descripcion` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`forma_pago_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `forma_pago`
+--
+
+INSERT INTO `forma_pago` (`forma_pago_id`, `forma_pago_nombre`, `forma_pago_descripcion`) VALUES
+(1, 'Efectivo', 'Se paga al momento de entregar el pedido');
 
 -- --------------------------------------------------------
 
@@ -117,6 +210,67 @@ INSERT INTO `imagen` (`imagen_id`, `imagen_nombre`, `producto_id`) VALUES
 (28, 'PI-000028-cereza-sola.jpg', 4),
 (29, 'PI-000029-0000249190001250_xl_a.jpg', 5),
 (30, 'PI-000030-0000341793909685_xl_a.jpg', 6);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `menu_panel_control_cliente`
+--
+
+CREATE TABLE IF NOT EXISTS `menu_panel_control_cliente` (
+  `menu_panel_control_cliente_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `menu_panel_control_cliente_nombre` varchar(255) DEFAULT NULL,
+  `menu_panel_control_cliente_url` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`menu_panel_control_cliente_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+
+--
+-- Volcado de datos para la tabla `menu_panel_control_cliente`
+--
+
+INSERT INTO `menu_panel_control_cliente` (`menu_panel_control_cliente_id`, `menu_panel_control_cliente_nombre`, `menu_panel_control_cliente_url`) VALUES
+(1, 'Modificar mis Datos', 'site/modificarDatosCliente'),
+(2, 'Historial de mis Pedidos', NULL),
+(3, 'Mis Direcciones de Envío', 'site/misDireccionesDeEnvio');
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `pedido`
+--
+
+CREATE TABLE IF NOT EXISTS `pedido` (
+  `pedido_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `pedido_fecha` datetime NOT NULL,
+  `pedido_cliente_nombre` varchar(255) NOT NULL,
+  `pedido_cliente_direccion` varchar(255) NOT NULL,
+  `pedido_cliente_comuna` varchar(255) NOT NULL,
+  `pedido_cliente_provincia` varchar(255) NOT NULL,
+  `pedido_cliente_telefono` varchar(255) NOT NULL,
+  `pedido_cliente_telefono_movil` varchar(255) NOT NULL,
+  `cliente_id` bigint(20) DEFAULT NULL,
+  `forma_pago_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`pedido_id`),
+  KEY `fk_cliente_pedido_cliente_id` (`cliente_id`),
+  KEY `fk_forma_pago_pedido_forma_pago_id` (`forma_pago_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `pedido_detalle`
+--
+
+CREATE TABLE IF NOT EXISTS `pedido_detalle` (
+  `pedido_detalle_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `pedido_detalle_descripcion` varchar(255) DEFAULT NULL,
+  `pedido_detalle_precio` int(11) DEFAULT NULL,
+  `pedido_detalle_cantidad` int(11) DEFAULT NULL,
+  `pedido_detalle_total` int(11) DEFAULT NULL,
+  `pedido_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`pedido_detalle_id`),
+  KEY `fk_pedido_pedido_detalle_pedido__id` (`pedido_id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -179,10 +333,30 @@ INSERT INTO `unidad_venta` (`unidad_venta_id`, `unidad_venta_nombre`, `unidad_ve
 --
 
 --
+-- Filtros para la tabla `direccion`
+--
+ALTER TABLE `direccion`
+  ADD CONSTRAINT `fk_direccion_cliente_cliente_id` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`cliente_id`),
+  ADD CONSTRAINT `fk_direccion_comuna_comuna_id` FOREIGN KEY (`comuna_id`) REFERENCES `comuna` (`comuna_id`);
+
+--
 -- Filtros para la tabla `imagen`
 --
 ALTER TABLE `imagen`
   ADD CONSTRAINT `fk_imagen_producto_producto_id` FOREIGN KEY (`producto_id`) REFERENCES `producto` (`producto_id`);
+
+--
+-- Filtros para la tabla `pedido`
+--
+ALTER TABLE `pedido`
+  ADD CONSTRAINT `fk_cliente_pedido_cliente_id` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`cliente_id`),
+  ADD CONSTRAINT `fk_forma_pago_pedido_forma_pago_id` FOREIGN KEY (`forma_pago_id`) REFERENCES `forma_pago` (`forma_pago_id`);
+
+--
+-- Filtros para la tabla `pedido_detalle`
+--
+ALTER TABLE `pedido_detalle`
+  ADD CONSTRAINT `fk_pedido_pedido_detalle_pedido__id` FOREIGN KEY (`pedido_id`) REFERENCES `pedido` (`pedido_id`);
 
 --
 -- Filtros para la tabla `producto`

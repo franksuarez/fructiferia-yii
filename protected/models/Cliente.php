@@ -47,7 +47,7 @@ class Cliente extends CActiveRecord
 			array('cliente_nombre, cliente_ape_paterno, cliente_ape_materno, cliente_email, cliente_password', 'length', 'max'=>255),
 			array('cliente_nombre, cliente_ape_paterno, cliente_ape_materno, cliente_email, cliente_telefono, cliente_telefono_movil, cliente_password, password_repeat', 'required', 'message' => 'El campo {attribute} no puede estar en blanco.'),
 			array('cliente_telefono', 'length', 'max' => 7, 'message' => 'El largo para el campo teléfono es de 7 números.'),
-			array('cliente_telefono_movil', 'length', 'max' => 7, 'message' => 'El largo para el campo teléfono móvil es de 8 números.'),
+			array('cliente_telefono_movil', 'length', 'max' => 8, 'message' => 'El largo para el campo teléfono móvil es de 8 números.'),
 			// The following rule is used by search().
 			// Please remove those attributes that should not be searched.
 			array('cliente_id, cliente_nombre, cliente_ape_paterno, cliente_ape_materno, cliente_email, cliente_telefono, cliente_telefono_movil, cliente_password', 'safe', 'on'=>'search'),

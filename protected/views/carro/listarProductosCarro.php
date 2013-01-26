@@ -57,18 +57,34 @@
                                 <tr>
                                     <td style="vertical-align: middle;">TOTAL COMPRA</td>
                                     <td style="text-align: right;">
-                                        <span class="txt_precio_total">$<?php echo number_format($_SESSION['total_carro'], 0, ',', '.'); ?></span>
-                                    </td>
-                                </tr>
-                                <tr>
-                                    <td colspan="2" style="text-align: right;">
-                                        <a href="" class="button">Finalizar Pedido</a>
+                                    	<span class="txt_precio_total">$<?php echo number_format($_SESSION['total_carro'], 0, ',', '.'); ?></span>
                                     </td>
                                 </tr>
                             </table>
                         </div>
                     </li>
                 </ul>
+                
+                <div class="clear"></div>
+                
+                <div style="width: 870px; margin: 0 auto;">
+                	<table>
+                		<tr>
+                			<td>Dirección de Envío</td>
+                			<td></td>
+                		</tr>
+                		<tr>
+                			<td>Forma de Pago</td>
+                			<td>
+                				<select name="formaPago">
+                					<?php foreach($formasPago as $formaPago): ?>
+                					<option value="<?php echo $formaPago->forma_pago_id; ?>"><?php echo $formaPago->forma_pago_nombre; ?></option>
+                					<?php endforeach; ?>
+                				</select>
+                			</td>
+                		</tr>
+                	</table>
+                </div>
             <?php else: ?>
                 No tienes productos en tu carro.
             <?php endif; ?>

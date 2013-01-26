@@ -8,8 +8,13 @@ class CarroController extends Controller {
 	
 	public function actionListarProductosCarro() {
 		$this->layout = 'sitio';
+		
+		$formasPago = FormaPago::model()->findAll();
 		$this->getTotalCarro();
-		$this->render('listarProductosCarro');
+		
+		$this->render('listarProductosCarro',
+						array('formasPago' => $formasPago)
+		);
 	}
 	
 	public function actionAgregarProductoCarro($id) {
@@ -56,6 +61,16 @@ class CarroController extends Controller {
 		unset($_SESSION['carro']);
 		
 		$this -> redirect(array('/'));
+	}
+
+	public function actionFinalizarPedido() {
+		$this->layout = 'sitio';
+		
+		$formasPago = FormaPago::model()->findAll();
+		
+		$this->render('finalizarPedido',
+						array('formasPago' => $formasPago)
+		);
 	}
 
 	public function getTotalCarro() {
