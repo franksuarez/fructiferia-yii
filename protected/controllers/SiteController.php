@@ -28,9 +28,9 @@ class SiteController extends Controller {
         // renders the view file 'protected/views/site/index.php'
         // using the default layout 'protected/views/layouts/main.php'
         $this->layout = 'sitio';
-		
-		$categorias = Categoria::model()->findAll();
-        
+
+        $categorias = Categoria::model()->findAll();
+
         $this->render('index', array('categorias' => $categorias));
     }
 
@@ -99,106 +99,140 @@ class SiteController extends Controller {
         Yii::app()->user->logout();
         $this->redirect(Yii::app()->homeUrl);
     }
-	
-	public function actionCrearCuentaCliente() {
-		$this->layout = 'sitio';
-		$cliente = new Cliente;
-		
-		if(isset($_POST['Cliente']))  {
-			$cliente->attributes = $_POST['Cliente'];
-			if($cliente->save()) {
-				$_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
-				$_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
-				$_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
-				$_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
-				$_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
-				$_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
-				$_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
-				
-				$this->redirect('panelControlCliente');
-			}
-		}
-		
-		$this->render('crearCuentaCliente', array('cliente' => $cliente));
-	}
-	
-	public function actionPanelControlCliente() {
-		$this->layout = 'sitio';
-		
-		$menuPanel = MenuPanelControlCliente::model()->findAll();
-		
-		$this->render('panelControlCliente'
-						,array('menuPanel' => $menuPanel)
-		);
-	}
-	
-	public function actionListarProductosPorCategoria($id) {
-		$this->layout = 'sitio';
-		
-		$categorias = Categoria::model()->findAll();
-		$nombreCategoria = Categoria::model()->findByPk($id)->categoria_nombre;
-		$productos = Producto::model()->with('categoria', 'unidadVenta', 'imagen')->findAll(array('order'=>'producto_nombre', 'condition'=>'categoria.categoria_id = ' . $id));
-		
-		$this->render('listarProductosPorCategoria',
-						array(
-							'productos' => $productos,
-							'categorias' => $categorias,
-							'nombreCategoria' => $nombreCategoria
-							));
-	}
-	
-	public function actionIniciarSesion() {
-		$this->layout = 'sitio';
-		
-		if(isset($_POST['Cliente'])) {
-			$cliente = Cliente::model()->find("cliente_email = '" . $_POST['Cliente']['cliente_email'] . "' and cliente_password = '" . $_POST['Cliente']['cliente_password'] . "'");
-			
-			if(isset($cliente)){
-				$_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
-				$_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
-				$_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
-				$_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
-				$_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
-				$_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
-				$_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
-				
-				$this->redirect('panelControlCliente');
-			} else {
-				$this->render('iniciarSesion');
-			}
-		} else {
-			$this->render('iniciarSesion');
-		}
-	}
-	
-	public function actionCerrarSesion() {
-		unset($_SESSION['Cliente']);
-		
-		$this->redirect(array('site/index'));
-	}
-	
-	public function actionModificarDatosCliente() {
-		$this->layout = 'sitio';
-		
-		$menuPanel = MenuPanelControlCliente::model()->findAll();
-		$cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
-		
-		if(isset($_POST['Cliente'])) {
-			$cliente->attributes = $_POST['Cliente'];
-			
-			$cliente->save();
-		}
-		
-		$this->render('modificarDatosCliente', array('cliente' => $cliente, 'menuPanel' => $menuPanel));
-	}
 
-	public function actionMisDireccionesDeEnvio() {
-		$this->layout = 'sitio';
-		
-		$menuPanel = MenuPanelControlCliente::model()->findAll();
-		$cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
-		
-		$this->render('direccionesDeEnvio', array('cliente' => $cliente, 'menuPanel' => $menuPanel));
-	}
+    public function actionCrearCuentaCliente() {
+        $this->layout = 'sitio';
+        $cliente = new Cliente;
+
+        if (isset($_POST['Cliente'])) {
+            $cliente->attributes = $_POST['Cliente'];
+            if ($cliente->save()) {
+                $_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
+                $_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
+                $_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
+                $_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
+                $_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
+                $_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
+                $_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
+
+                $this->redirect('panelControlCliente');
+            }
+        }
+
+        $this->render('crearCuentaCliente', array('cliente' => $cliente));
+    }
+
+    public function actionPanelControlCliente() {
+        $this->layout = 'sitio';
+
+        $menuPanel = MenuPanelControlCliente::model()->findAll();
+
+        $this->render('panelControlCliente'
+                , array('menuPanel' => $menuPanel)
+        );
+    }
+
+    public function actionListarProductosPorCategoria($id) {
+        $this->layout = 'sitio';
+
+        $categorias = Categoria::model()->findAll();
+        $nombreCategoria = Categoria::model()->findByPk($id)->categoria_nombre;
+        $productos = Producto::model()->with('categoria', 'unidadVenta', 'imagen')->findAll(array('order' => 'producto_nombre', 'condition' => 'categoria.categoria_id = ' . $id));
+
+        $this->render('listarProductosPorCategoria', array(
+            'productos' => $productos,
+            'categorias' => $categorias,
+            'nombreCategoria' => $nombreCategoria
+        ));
+    }
+
+    public function actionIniciarSesion() {
+        $this->layout = 'sitio';
+
+        if (isset($_POST['Cliente'])) {
+            $cliente = Cliente::model()->find("cliente_email = '" . $_POST['Cliente']['cliente_email'] . "' and cliente_password = '" . $_POST['Cliente']['cliente_password'] . "'");
+
+            if (isset($cliente)) {
+                $_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
+                $_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
+                $_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
+                $_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
+                $_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
+                $_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
+                $_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
+
+                $this->redirect('panelControlCliente');
+            } else {
+                $this->render('iniciarSesion');
+            }
+        } else {
+            $this->render('iniciarSesion');
+        }
+    }
+
+    public function actionCerrarSesion() {
+        unset($_SESSION['Cliente']);
+
+        $this->redirect(array('site/index'));
+    }
+
+    public function actionModificarDatosCliente() {
+        $this->layout = 'sitio';
+
+        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        $cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
+
+        if (isset($_POST['Cliente'])) {
+            $cliente->attributes = $_POST['Cliente'];
+
+            $cliente->save();
+        }
+
+        $this->render('modificarDatosCliente', array('cliente' => $cliente, 'menuPanel' => $menuPanel));
+    }
+
+    public function actionMisDireccionesDeEnvio() {
+        $this->layout = 'sitio';
+
+        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        $cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
+        $direcciones = Direccion::model()->with('comuna')->findALl('cliente_id = ' . $_SESSION['Cliente']['cliente_id']);
+
+        $this->render(
+                'direccionesDeEnvio',
+                array(
+                    'cliente' => $cliente,
+                    'menuPanel' => $menuPanel,
+                    'direcciones' => $direcciones));
+    }
+    
+    public function actionHistorialDeMisPedidos() {
+        $this->layout = 'sitio';
+        
+        $this->render('historialDeMisPedidos');
+    }
+
+    public function actionAgregarDireccionCliente() {
+        $this->layout = 'ajax';
+
+        $comunas = Comuna::model()->findAll();
+        $direccion = new Direccion;
+        
+        if (isset($_POST['Direccion'])) {
+            $direccion = new Direccion;
+            $direccion->attributes = $_POST['Direccion'];
+            $direccion->cliente_id = $_SESSION['Cliente']['cliente_id'];
+
+            if ($direccion->save()) {
+                $this->redirect(array('site/misDireccionesDeEnvio'));
+            }
+        }
+
+        $this->render(
+            'agregarDireccionCliente', array(
+            'comunas' => $comunas,
+            'direccion' => $direccion
+        ));
+    }
 
 }
