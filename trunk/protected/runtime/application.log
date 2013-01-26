@@ -2609,3 +2609,420 @@ REQUEST_URI=/carro-felinos/carro/listarProductosCarro
 in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (80)
 in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (12)
 in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:38:27 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(214): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (214)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:38:41 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(214): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (214)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:39:11 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:39:32 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:39:33 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:39:33 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:39:34 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:40:00 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:40:08 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:40:38 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:40:39 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:40:39 [error] [php] Undefined variable: model (C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php:13)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): SiteController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+in C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php (13)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (215)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/26 00:40:47 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.direcion_descripcion" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('direcion_descri...')
+#1 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('direcion_descri...')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Direccion), 'direcion_descri...')
+#3 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Direccion), 'direcion_descri...', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Direccion), 'direcion_descri...', Array)
+#5 C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php(14): CActiveForm->textField(Object(Direccion), 'direcion_descri...', Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarDireccio...', Array, true)
+#10 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): CController->render('agregarDireccio...', Array)
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarDireccio...')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/agregarDir...')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 00:40:48 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.direcion_descripcion" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('direcion_descri...')
+#1 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('direcion_descri...')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Direccion), 'direcion_descri...')
+#3 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Direccion), 'direcion_descri...', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Direccion), 'direcion_descri...', Array)
+#5 C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php(14): CActiveForm->textField(Object(Direccion), 'direcion_descri...', Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarDireccio...', Array, true)
+#10 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): CController->render('agregarDireccio...', Array)
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarDireccio...')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/agregarDir...')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 00:41:07 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.direcion_descripcion" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('direcion_descri...')
+#1 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('direcion_descri...')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Direccion), 'direcion_descri...')
+#3 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Direccion), 'direcion_descri...', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Direccion), 'direcion_descri...', Array)
+#5 C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php(14): CActiveForm->textField(Object(Direccion), 'direcion_descri...', Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarDireccio...', Array, true)
+#10 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): CController->render('agregarDireccio...', Array)
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarDireccio...')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/agregarDir...')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 00:41:08 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.direcion_descripcion" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('direcion_descri...')
+#1 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('direcion_descri...')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Direccion), 'direcion_descri...')
+#3 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Direccion), 'direcion_descri...', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Direccion), 'direcion_descri...', Array)
+#5 C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php(14): CActiveForm->textField(Object(Direccion), 'direcion_descri...', Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarDireccio...', Array, true)
+#10 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): CController->render('agregarDireccio...', Array)
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarDireccio...')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/agregarDir...')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 00:41:09 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.direcion_descripcion" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('direcion_descri...')
+#1 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('direcion_descri...')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Direccion), 'direcion_descri...')
+#3 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Direccion), 'direcion_descri...', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Direccion), 'direcion_descri...', Array)
+#5 C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php(14): CActiveForm->textField(Object(Direccion), 'direcion_descri...', Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarDireccio...', Array, true)
+#10 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): CController->render('agregarDireccio...', Array)
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarDireccio...')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/agregarDir...')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 00:45:23 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.direcion_descripcion" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('direcion_descri...')
+#1 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(2158): CActiveRecord->__get('direcion_descri...')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1887): CHtml::resolveValue(Object(Direccion), 'direcion_descri...')
+#3 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1217): CHtml::activeInputField('text', Object(Direccion), 'direcion_descri...', Array)
+#4 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(658): CHtml::activeTextField(Object(Direccion), 'direcion_descri...', Array)
+#5 C:\wamp\www\carro-felinos\protected\views\site\agregarDireccionCliente.php(14): CActiveForm->textField(Object(Direccion), 'direcion_descri...', Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('agregarDireccio...', Array, true)
+#10 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(215): CController->render('agregarDireccio...', Array)
+#11 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionAgregarDireccionCliente()
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('agregarDireccio...')
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/agregarDir...')
+#17 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#18 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#19 {main}
+REQUEST_URI=/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 06:06:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('site')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('site')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/site/misDi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/site/misDireccionesDeEnvio
+HTTP_REFERER=http://localhost:90/carro-felinos/site/agregarDireccionCliente
+---
+2013/01/26 06:18:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "site".' in C:\wamp\www\carro-felinos\framework\web\CController.php:484
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(271): CController->missingAction('site')
+#1 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('site')
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/site/misDi...')
+#3 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#5 {main}
+REQUEST_URI=/carro-felinos/site/site/misDireccionesDeEnvio
+HTTP_REFERER=http://localhost:90/carro-felinos/site/misDireccionesDeEnvio
+---
+2013/01/26 06:23:57 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "".' in C:\wamp\www\carro-felinos\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('', NULL, true)
+#1 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(212): CController->render('')
+#2 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionHistorialDeMisPedidos()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('historialDeMisP...')
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/historialD...')
+#8 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/carro-felinos/site/historialDeMisPedidos
+HTTP_REFERER=http://localhost:90/carro-felinos/site/modificarDatosCliente
+---
+2013/01/26 06:24:09 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "".' in C:\wamp\www\carro-felinos\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('', NULL, true)
+#1 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(212): CController->render('')
+#2 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionHistorialDeMisPedidos()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('historialDeMisP...')
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/historialD...')
+#8 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/carro-felinos/site/historialDeMisPedidos
+---
+2013/01/26 06:24:23 [error] [exception.CException] exception 'CException' with message 'SiteController cannot find the requested view "".' in C:\wamp\www\carro-felinos\framework\web\CController.php:879
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('', NULL, true)
+#1 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(212): CController->render('')
+#2 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionHistorialDeMisPedidos()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('historialDeMisP...')
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/historialD...')
+#8 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/carro-felinos/site/historialDeMisPedidos
+HTTP_REFERER=http://localhost:90/carro-felinos/site/modificarDatosCliente
+---
