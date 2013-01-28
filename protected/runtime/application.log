@@ -3026,3 +3026,37 @@ Stack trace:
 REQUEST_URI=/carro-felinos/site/historialDeMisPedidos
 HTTP_REFERER=http://localhost:90/carro-felinos/site/modificarDatosCliente
 ---
+2013/01/28 20:13:39 [error] [php] Undefined variable: direcciones (C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php:76)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CarroController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CarroController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(17): CarroController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (76)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (17)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/28 20:32:58 [error] [php] Undefined index: Cliente (C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php:71)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CarroController->renderFile()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CarroController->renderPartial()
+#2 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(21): CarroController->render()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (71)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (21)
+in C:\wamp\www\carro-felinos\index.php (20)
