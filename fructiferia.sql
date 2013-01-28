@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 26-01-2013 a las 00:26:40
+-- Tiempo de generación: 28-01-2013 a las 21:30:55
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -163,7 +163,16 @@ CREATE TABLE IF NOT EXISTS `direccion` (
   PRIMARY KEY (`direccion_id`),
   KEY `fk_direccion_comuna_comuna_id` (`comuna_id`),
   KEY `fk_direccion_cliente_cliente_id` (`cliente_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=7 ;
+
+--
+-- Volcado de datos para la tabla `direccion`
+--
+
+INSERT INTO `direccion` (`direccion_id`, `direccion_descripcion`, `comuna_id`, `cliente_id`) VALUES
+(4, 'Las Tranqueras 450, depto. 13', 9, 1),
+(5, 'Otras Dirección', 1, 1),
+(6, 'Otra mas', 19, 1);
 
 -- --------------------------------------------------------
 
@@ -230,7 +239,7 @@ CREATE TABLE IF NOT EXISTS `menu_panel_control_cliente` (
 
 INSERT INTO `menu_panel_control_cliente` (`menu_panel_control_cliente_id`, `menu_panel_control_cliente_nombre`, `menu_panel_control_cliente_url`) VALUES
 (1, 'Modificar mis Datos', 'site/modificarDatosCliente'),
-(2, 'Historial de mis Pedidos', NULL),
+(2, 'Historial de mis Pedidos', 'site/historialDeMisPedidos'),
 (3, 'Mis Direcciones de Envío', 'site/misDireccionesDeEnvio');
 
 -- --------------------------------------------------------
