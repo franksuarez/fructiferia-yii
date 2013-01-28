@@ -3,6 +3,34 @@
     <div class="block-content">
         <div style="width: 100%;">
             <?php if (count($_SESSION['carro']) > 0): ?>
+                <?php if(Yii::app()->user->hasFlash('productoAgregadoCarro')):?>
+                <ul class="messages">
+                    <li class="success-msg">
+                        <ul>
+                            <li><span><?php echo Yii::app()->user->getFlash('productoAgregadoCarro'); ?></span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <?php endif; ?>
+                <?php if(Yii::app()->user->hasFlash('productosCarroActualizados')):?>
+                <ul class="messages">
+                    <li class="success-msg">
+                        <ul>
+                            <li><span><?php echo Yii::app()->user->getFlash('productosCarroActualizados'); ?></span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <?php endif; ?>
+                <?php if(Yii::app()->user->hasFlash('productoCarroEliminado')):?>
+                <ul class="messages">
+                    <li class="success-msg">
+                        <ul>
+                            <li><span><?php echo Yii::app()->user->getFlash('productoCarroEliminado'); ?></span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <?php endif; ?>
+                
                 <form id="form_actualizar_carro" method="post" action="<?php echo Yii::app()->baseUrl ?>/carro/actualizarProductosCarro">
                     <table id="grid_productos_carro">
                         <tr>
@@ -41,6 +69,7 @@
                                 </div>
 
                                 <div style="float: left; width: 50%; text-align: right;">
+                                    <?php echo CHtml::link('Vaciar Carro', array('carro/vaciarCarro'), array('class' => 'button', 'confirm' => '¿Está seguro que desea eliminar los producto de su carro?.')); ?>
                                     <a href="javascript:actualizarProductosCarro();" class="button">Actualizar Carro</a>
                                 </div>
                             </td>
@@ -57,34 +86,59 @@
                                 <tr>
                                     <td style="vertical-align: middle;">TOTAL COMPRA</td>
                                     <td style="text-align: right;">
-                                    	<span class="txt_precio_total">$<?php echo number_format($_SESSION['total_carro'], 0, ',', '.'); ?></span>
+                                        <span class="txt_precio_total">$<?php echo number_format($_SESSION['total_carro'], 0, ',', '.'); ?></span>
                                     </td>
                                 </tr>
                             </table>
                         </div>
                     </li>
                 </ul>
-                
+
                 <div class="clear"></div>
                 
-                <div style="width: 870px; margin: 0 auto;">
-                	<table>
-                		<tr>
-                			<td>Dirección de Envío</td>
-                			<td></td>
-                		</tr>
-                		<tr>
-                			<td>Forma de Pago</td>
-                			<td>
-                				<select name="formaPago">
-                					<?php foreach($formasPago as $formaPago): ?>
-                					<option value="<?php echo $formaPago->forma_pago_id; ?>"><?php echo $formaPago->forma_pago_nombre; ?></option>
-                					<?php endforeach; ?>
-                				</select>
-                			</td>
-                		</tr>
-                	</table>
-                </div>
+                <div style="height: 20px;"></div>
+                <?php if(isset($_SESSION['Cliente'])): ?>
+                    <?php if($_SESSION['total_carro'] >= 20000): ?>
+                    <div style="width: 870px; margin: 0 auto;">
+                        <table style="width: 100%; margin: 0 auto;">
+                            <tr>
+                                <td>Dirección de Envío</td>
+                                <td>
+                                    <select name="direcciones">
+                                        <?php foreach ($direcciones as $direccion): ?>
+                                            <option value="<?php echo $direccion->direccion_id; ?>"><?php echo $direccion->direccion_descripcion; ?>, <?php echo $direccion->comuna->comuna_nombre; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>Forma de Pago</td>
+                                <td>
+                                    <select name="formaPago">
+                                        <?php foreach ($formasPago as $formaPago): ?>
+                                            <option value="<?php echo $formaPago->forma_pago_id; ?>"><?php echo $formaPago->forma_pago_nombre; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>&nbsp;</td>
+                            </tr>
+                            <tr>
+                                <td>&nbsp;</td>
+                                <td>
+                                    <?php echo CHtml::link('Finalizar Pedido', array('carro/finalizarPedido'), array('class' => 'button', 'confirm' => '¿Esta seguro que quiere realizar el pedido?')); ?>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <?php else: ?>
+                    El total del pedido debe ser mayor o igual a $20.000.-.
+                    <?php endif; ?>
+                <?php else: ?>
+                Debe iniciar sesión para realizar su pedido.
+                <?php endif; ?>
             <?php else: ?>
                 No tienes productos en tu carro.
             <?php endif; ?>

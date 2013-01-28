@@ -209,7 +209,13 @@ class SiteController extends Controller {
     public function actionHistorialDeMisPedidos() {
         $this->layout = 'sitio';
         
-        $this->render('historialDeMisPedidos');
+        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        
+        $this->render(
+                'historialDeMisPedidos',
+                array(
+                    'menuPanel' => $menuPanel
+                ));
     }
 
     public function actionAgregarDireccionCliente() {
