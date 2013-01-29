@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 28-01-2013 a las 21:30:55
+-- Tiempo de generación: 29-01-2013 a las 01:01:20
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -239,7 +239,7 @@ CREATE TABLE IF NOT EXISTS `menu_panel_control_cliente` (
 
 INSERT INTO `menu_panel_control_cliente` (`menu_panel_control_cliente_id`, `menu_panel_control_cliente_nombre`, `menu_panel_control_cliente_url`) VALUES
 (1, 'Modificar mis Datos', 'site/modificarDatosCliente'),
-(2, 'Historial de mis Pedidos', 'site/historialDeMisPedidos'),
+(2, 'Ver Historial de mis Pedidos', 'site/historialDeMisPedidos'),
 (3, 'Mis Direcciones de Envío', 'site/misDireccionesDeEnvio');
 
 -- --------------------------------------------------------
@@ -259,10 +259,24 @@ CREATE TABLE IF NOT EXISTS `pedido` (
   `pedido_cliente_telefono_movil` varchar(255) NOT NULL,
   `cliente_id` bigint(20) DEFAULT NULL,
   `forma_pago_id` bigint(20) DEFAULT NULL,
+  `tipo_documento_id` bigint(20) DEFAULT NULL,
   PRIMARY KEY (`pedido_id`),
   KEY `fk_cliente_pedido_cliente_id` (`cliente_id`),
-  KEY `fk_forma_pago_pedido_forma_pago_id` (`forma_pago_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+  KEY `fk_forma_pago_pedido_forma_pago_id` (`forma_pago_id`),
+  KEY `fk_pedido_tipo_documento_tipo_documento_id` (`tipo_documento_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=9 ;
+
+--
+-- Volcado de datos para la tabla `pedido`
+--
+
+INSERT INTO `pedido` (`pedido_id`, `pedido_fecha`, `pedido_cliente_nombre`, `pedido_cliente_direccion`, `pedido_cliente_comuna`, `pedido_cliente_provincia`, `pedido_cliente_telefono`, `pedido_cliente_telefono_movil`, `cliente_id`, `forma_pago_id`, `tipo_documento_id`) VALUES
+(3, '2013-01-28 21:19:50', 'Oscar', 'Las Tranqueras 450, depto. 13', 'La Florida', '', '9338112', '83055080', 1, 1, 1),
+(4, '2013-01-28 21:43:33', 'Oscar', 'Las Tranqueras 450, depto. 13', 'La Florida', '', '9338112', '83055080', 1, 1, 1),
+(5, '2013-01-28 21:46:37', 'Oscar', 'Las Tranqueras 450, depto. 13', 'La Florida', '', '9338112', '83055080', 1, 1, 1),
+(6, '2013-01-28 21:46:56', 'Oscar', 'Las Tranqueras 450, depto. 13', 'La Florida', '', '9338112', '83055080', 1, 1, 1),
+(7, '2013-01-28 21:48:07', 'Oscar', 'Las Tranqueras 450, depto. 13', 'La Florida', '', '9338112', '83055080', 1, 1, 2),
+(8, '2013-01-28 21:49:00', 'Oscar', 'Las Tranqueras 450, depto. 13', 'La Florida', '', '9338112', '83055080', 1, 1, 2);
 
 -- --------------------------------------------------------
 
@@ -277,9 +291,28 @@ CREATE TABLE IF NOT EXISTS `pedido_detalle` (
   `pedido_detalle_cantidad` int(11) DEFAULT NULL,
   `pedido_detalle_total` int(11) DEFAULT NULL,
   `pedido_id` bigint(20) DEFAULT NULL,
+  `producto_id` bigint(20) DEFAULT NULL,
+  `producto_codigo` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`pedido_detalle_id`),
-  KEY `fk_pedido_pedido_detalle_pedido__id` (`pedido_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 AUTO_INCREMENT=1 ;
+  KEY `fk_pedido_pedido_detalle_pedido__id` (`pedido_id`),
+  KEY `fk_pedido_detalle_producto_producto_id` (`producto_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=13 ;
+
+--
+-- Volcado de datos para la tabla `pedido_detalle`
+--
+
+INSERT INTO `pedido_detalle` (`pedido_detalle_id`, `pedido_detalle_descripcion`, `pedido_detalle_precio`, `pedido_detalle_cantidad`, `pedido_detalle_total`, `pedido_id`, `producto_id`, `producto_codigo`) VALUES
+(3, 'Guinda', 990, 12, 11880, 3, 4, 'PR-00004'),
+(4, 'Acelga', 990, 10, 9900, 3, 6, 'PR-00006'),
+(5, 'Guinda', 990, 12, 11880, 4, 4, 'PR-00004'),
+(6, 'Acelga', 990, 10, 9900, 4, 6, 'PR-00006'),
+(7, 'Guinda', 990, 12, 11880, 5, 4, 'PR-00004'),
+(8, 'Acelga', 990, 10, 9900, 5, 6, 'PR-00006'),
+(9, 'Guinda', 990, 12, 11880, 6, 4, 'PR-00004'),
+(10, 'Acelga', 990, 10, 9900, 6, 6, 'PR-00006'),
+(11, 'Pera', 990, 25, 24750, 7, 3, 'PR-00003'),
+(12, 'Manzana Verde', 990, 25, 24750, 8, 2, 'PR-00002');
 
 -- --------------------------------------------------------
 
@@ -314,6 +347,27 @@ INSERT INTO `producto` (`producto_id`, `producto_codigo`, `producto_nombre`, `pr
 (4, 'PR-00004', 'Guinda', '', 990, '2013-01-08 15:22:28', NULL, 1, 1),
 (5, 'PR-00005', 'Kiwui', '', 990, '2013-01-08 15:22:41', NULL, 1, 1),
 (6, 'PR-00006', 'Acelga', '', 990, '2013-01-08 16:40:37', NULL, 2, 2);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `tipo_documento`
+--
+
+CREATE TABLE IF NOT EXISTS `tipo_documento` (
+  `tipo_documento_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `tipo_documento_nombre` varchar(255) DEFAULT NULL,
+  `tipo_documento_descripcion` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`tipo_documento_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+
+--
+-- Volcado de datos para la tabla `tipo_documento`
+--
+
+INSERT INTO `tipo_documento` (`tipo_documento_id`, `tipo_documento_nombre`, `tipo_documento_descripcion`) VALUES
+(1, 'Boleta', 'Boleta'),
+(2, 'Factura', 'Factura');
 
 -- --------------------------------------------------------
 
@@ -358,6 +412,7 @@ ALTER TABLE `imagen`
 -- Filtros para la tabla `pedido`
 --
 ALTER TABLE `pedido`
+  ADD CONSTRAINT `fk_pedido_tipo_documento_tipo_documento_id` FOREIGN KEY (`tipo_documento_id`) REFERENCES `tipo_documento` (`tipo_documento_id`),
   ADD CONSTRAINT `fk_cliente_pedido_cliente_id` FOREIGN KEY (`cliente_id`) REFERENCES `cliente` (`cliente_id`),
   ADD CONSTRAINT `fk_forma_pago_pedido_forma_pago_id` FOREIGN KEY (`forma_pago_id`) REFERENCES `forma_pago` (`forma_pago_id`);
 
@@ -365,6 +420,7 @@ ALTER TABLE `pedido`
 -- Filtros para la tabla `pedido_detalle`
 --
 ALTER TABLE `pedido_detalle`
+  ADD CONSTRAINT `fk_pedido_detalle_producto_producto_id` FOREIGN KEY (`producto_id`) REFERENCES `producto` (`producto_id`),
   ADD CONSTRAINT `fk_pedido_pedido_detalle_pedido__id` FOREIGN KEY (`pedido_id`) REFERENCES `pedido` (`pedido_id`);
 
 --
