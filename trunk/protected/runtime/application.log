@@ -3060,3 +3060,140 @@ REQUEST_URI=/carro-felinos/carro/listarProductosCarro
 in C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php (71)
 in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (21)
 in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/28 23:14:45 [error] [php] Trying to get property of non-object (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:97)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (97)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/28 23:54:08 [error] [exception.CException] exception 'CException' with message 'Property "Direccion.tipo_documento_nombre" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:131
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(144): CComponent->__get('tipo_documento_...')
+#1 C:\wamp\www\carro-felinos\protected\views\carro\listarProductosCarro.php(129): CActiveRecord->__get('tipo_documento_...')
+#2 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#3 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('listarProductos...', Array, true)
+#6 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(23): CController->render('listarProductos...', Array)
+#7 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionListarProductosCarro()
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('listarProductos...')
+#12 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/listarPro...')
+#13 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#15 {main}
+REQUEST_URI=/carro-felinos/carro/listarProductosCarro
+HTTP_REFERER=http://localhost:90/carro-felinos/site/listarProductosPorCategoria/1
+---
+2013/01/29 00:09:26 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fructiferia`.`pedido`, CONSTRAINT `fk_pedido_tipo_documento_tipo_documento_id` FOREIGN KEY (`tipo_documento_id`) REFERENCES `tipo_documento` (`tipo_documento_id`)). The SQL statement executed was: INSERT INTO `pedido` (`pedido_fecha`, `pedido_cliente_nombre`, `pedido_cliente_direccion`, `pedido_cliente_comuna`, `pedido_cliente_telefono`, `pedido_cliente_telefono_movil`, `pedido_id`, `cliente_id`, `forma_pago_id`, `tipo_documento_id`) VALUES (NOW(), :yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (105)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 00:09:26 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`fructiferia`.`pedido`, CONSTRAINT `fk_pedido_tipo_documento_tipo_documento_id` FOREIGN KEY (`tipo_documento_id`) REFERENCES `tipo_documento` (`tipo_documento_id`)). The SQL statement executed was: INSERT INTO `pedido` (`pedido_fecha`, `pedido_cliente_nombre`, `pedido_cliente_direccion`, `pedido_cliente_comuna`, `pedido_cliente_telefono`, `pedido_cliente_telefono_movil`, `pedido_id`, `cliente_id`, `forma_pago_id`, `tipo_documento_id`) VALUES (NOW(), :yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\wamp\www\carro-felinos\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(105): CActiveRecord->save()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionFinalizarPedido()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('finalizarPedido')
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/finalizar...')
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/29 00:15:31 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `pedido` (`pedido_fecha`, `pedido_cliente_nombre`, `pedido_cliente_direccion`, `pedido_cliente_comuna`, `pedido_cliente_telefono`, `pedido_cliente_telefono_movil`, `pedido_id`, `cliente_id`, `forma_pago_id`, `tipo_documento_id`) VALUES (NOW(), :yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8).
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (105)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 00:15:31 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '1' for key 'PRIMARY'. The SQL statement executed was: INSERT INTO `pedido` (`pedido_fecha`, `pedido_cliente_nombre`, `pedido_cliente_direccion`, `pedido_cliente_comuna`, `pedido_cliente_telefono`, `pedido_cliente_telefono_movil`, `pedido_id`, `cliente_id`, `forma_pago_id`, `tipo_documento_id`) VALUES (NOW(), :yp0, :yp1, :yp2, :yp3, :yp4, :yp5, :yp6, :yp7, :yp8)' in C:\wamp\www\carro-felinos\framework\db\CDbCommand.php:354
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1017): CDbCommand->execute()
+#1 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(796): CActiveRecord->insert(NULL)
+#2 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(105): CActiveRecord->save()
+#3 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionFinalizarPedido()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#6 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('finalizarPedido')
+#8 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/finalizar...')
+#9 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#10 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#11 {main}
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+HTTP_REFERER=http://localhost:90/carro-felinos/carro/listarProductosCarro
+---
+2013/01/29 00:46:56 [error] [php] Undefined index: carro (C:\wamp\www\carro-felinos\protected\views\layouts\sitio.php:36)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(785): CarroController->renderFile()
+#1 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(129): CarroController->render()
+#2 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionFinalizarPedido()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#6 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+in C:\wamp\www\carro-felinos\protected\views\layouts\sitio.php (36)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (129)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 00:47:14 [error] [php] Undefined index: Pedido (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:89)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (89)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 00:48:07 [error] [php] Undefined index: carro (C:\wamp\www\carro-felinos\protected\views\layouts\sitio.php:36)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(785): CarroController->renderFile()
+#1 C:\wamp\www\carro-felinos\protected\controllers\CarroController.php(129): CarroController->render()
+#2 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): CarroController->actionFinalizarPedido()
+#3 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#4 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#5 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#6 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#7 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#8 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+in C:\wamp\www\carro-felinos\protected\views\layouts\sitio.php (36)
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (129)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 00:51:04 [error] [php] Undefined index: Pedido (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:90)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (90)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 00:51:21 [error] [php] Undefined index: Pedido (C:\wamp\www\carro-felinos\protected\controllers\CarroController.php:90)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CarroController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CarroController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CarroController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/carro/finalizarPedido
+in C:\wamp\www\carro-felinos\protected\controllers\CarroController.php (90)
+in C:\wamp\www\carro-felinos\index.php (20)

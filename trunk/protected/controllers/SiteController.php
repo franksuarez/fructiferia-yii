@@ -199,23 +199,21 @@ class SiteController extends Controller {
         $direcciones = Direccion::model()->with('comuna')->findALl('cliente_id = ' . $_SESSION['Cliente']['cliente_id']);
 
         $this->render(
-                'direccionesDeEnvio',
-                array(
-                    'cliente' => $cliente,
-                    'menuPanel' => $menuPanel,
-                    'direcciones' => $direcciones));
+                'direccionesDeEnvio', array(
+            'cliente' => $cliente,
+            'menuPanel' => $menuPanel,
+            'direcciones' => $direcciones));
     }
-    
+
     public function actionHistorialDeMisPedidos() {
         $this->layout = 'sitio';
-        
+
         $menuPanel = MenuPanelControlCliente::model()->findAll();
-        
+
         $this->render(
-                'historialDeMisPedidos',
-                array(
-                    'menuPanel' => $menuPanel
-                ));
+                'historialDeMisPedidos', array(
+            'menuPanel' => $menuPanel
+        ));
     }
 
     public function actionAgregarDireccionCliente() {
@@ -223,7 +221,7 @@ class SiteController extends Controller {
 
         $comunas = Comuna::model()->findAll();
         $direccion = new Direccion;
-        
+
         if (isset($_POST['Direccion'])) {
             $direccion = new Direccion;
             $direccion->attributes = $_POST['Direccion'];
@@ -235,7 +233,7 @@ class SiteController extends Controller {
         }
 
         $this->render(
-            'agregarDireccionCliente', array(
+                'agregarDireccionCliente', array(
             'comunas' => $comunas,
             'direccion' => $direccion
         ));
