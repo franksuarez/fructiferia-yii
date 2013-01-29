@@ -30,6 +30,15 @@
                     </li>
                 </ul>
                 <?php endif; ?>
+                <?php if(Yii::app()->user->hasFlash('productoCarroNoExiste')):?>
+                <ul class="messages">
+                    <li class="error-msg">
+                        <ul>
+                            <li><span><?php echo Yii::app()->user->getFlash('productoCarroNoExiste'); ?></span></li>
+                        </ul>
+                    </li>
+                </ul>
+                <?php endif; ?>
                 
                 <form id="form_actualizar_carro" method="post" action="<?php echo Yii::app()->baseUrl ?>/carro/actualizarProductosCarro">
                     <table id="grid_productos_carro">
@@ -100,11 +109,12 @@
                 <?php if(isset($_SESSION['Cliente'])): ?>
                     <?php if($_SESSION['total_carro'] >= 20000): ?>
                     <div style="width: 870px; margin: 0 auto;">
+                        <form name="frm-pedido" id="frm-pedido" action="<?php echo Yii::app()->baseUrl ?>/carro/finalizarPedido" method="post">
                         <table style="width: 100%; margin: 0 auto;">
                             <tr>
                                 <td>Dirección de Envío</td>
                                 <td>
-                                    <select name="direcciones">
+                                    <select name="Pedido[direcciones]">
                                         <?php foreach ($direcciones as $direccion): ?>
                                             <option value="<?php echo $direccion->direccion_id; ?>"><?php echo $direccion->direccion_descripcion; ?>, <?php echo $direccion->comuna->comuna_nombre; ?></option>
                                         <?php endforeach; ?>
@@ -112,9 +122,19 @@
                                 </td>
                             </tr>
                             <tr>
+                                <td>Tipo Documento</td>
+                                <td>
+                                    <select name="Pedido[tiposDocumento]">
+                                        <?php foreach ($tiposDocumento as $tipoDocumento): ?>
+                                            <option value="<?php echo $tipoDocumento->tipo_documento_id; ?>"><?php echo $tipoDocumento->tipo_documento_nombre; ?></option>
+                                        <?php endforeach; ?>
+                                    </select>
+                                </td>
+                            </tr>
+                            <tr>
                                 <td>Forma de Pago</td>
                                 <td>
-                                    <select name="formaPago">
+                                    <select name="Pedido[formaPago]">
                                         <?php foreach ($formasPago as $formaPago): ?>
                                             <option value="<?php echo $formaPago->forma_pago_id; ?>"><?php echo $formaPago->forma_pago_nombre; ?></option>
                                         <?php endforeach; ?>
@@ -128,19 +148,38 @@
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>
-                                    <?php echo CHtml::link('Finalizar Pedido', array('carro/finalizarPedido'), array('class' => 'button', 'confirm' => '¿Esta seguro que quiere realizar el pedido?')); ?>
+                                    <?php echo CHtml::link('Finalizar Pedido', 'javascript:finalizarPedido();', array('class' => 'button', 'confirm' => '¿Está seguro que quiere realizar el pedido?')); ?>
                                 </td>
                             </tr>
                         </table>
+                        </form>
                     </div>
                     <?php else: ?>
-                    El total del pedido debe ser mayor o igual a $20.000.-.
+                    <ul class="messages">
+                        <li class="error-msg">
+                            <ul>
+                                <li><span>Para realizar un pedido, el total de tu carro debe ser mayor o igual a $20.000.-</span></li>
+                            </ul>
+                        </li>
+                    </ul>
                     <?php endif; ?>
                 <?php else: ?>
-                Debe iniciar sesión para realizar su pedido.
+                <ul class="messages">
+                    <li class="error-msg">
+                        <ul>
+                            <li><span>Debes iniciar sesión para realizar un pedido.</span></li>
+                        </ul>
+                    </li>
+                </ul>
                 <?php endif; ?>
             <?php else: ?>
-                No tienes productos en tu carro.
+                <ul class="messages">
+                    <li class="notice-msg">
+                        <ul>
+                            <li><span>No tienes productos en tu carro.</span></li>
+                        </ul>
+                    </li>
+                </ul>
             <?php endif; ?>
         </div>
 

@@ -2,7 +2,7 @@
 <div class="grid_17">
 	<div class="block-title">Panel de Control Clientes</div>
 	<div class="block-content">
-		<?php echo $_SESSION['Cliente']['cliente_nombre']; ?>
+		Bienvenido a tu panel de control, en el menú a la derecha verás las distintas acciones que puedes realizar.
 	</div>
 </div>
 
