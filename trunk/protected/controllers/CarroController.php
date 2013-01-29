@@ -97,6 +97,7 @@ class CarroController extends Controller {
                 $pedido->pedido_cliente_comuna              = $direccion->comuna->comuna_nombre;
                 $pedido->pedido_cliente_telefono            = $_SESSION['Cliente']['cliente_telefono'];
                 $pedido->pedido_cliente_telefono_movil      = $_SESSION['Cliente']['cliente_telefono_movil'];
+                $pedido->pedido_total                       = $_SESSION['total_carro'];
                 $pedido->cliente_id                         = $_SESSION['Cliente']['cliente_id'];
                 $pedido->forma_pago_id                      = $formaPago->forma_pago_id;
                 $pedido->tipo_documento_id                  = $tipoDocumento->tipo_documento_id;
