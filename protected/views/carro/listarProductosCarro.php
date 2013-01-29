@@ -78,7 +78,7 @@
                                 </div>
 
                                 <div style="float: left; width: 50%; text-align: right;">
-                                    <?php echo CHtml::link('Vaciar Carro', array('carro/vaciarCarro'), array('class' => 'button', 'confirm' => '¿Está seguro que desea eliminar los producto de su carro?.')); ?>
+                                    <?php echo CHtml::link('Vaciar Carro', array('carro/vaciarCarro'), array('class' => 'button', 'confirm' => '¿Estás seguro que quieres eliminar los producto de tu carro?.')); ?>
                                     <a href="javascript:actualizarProductosCarro();" class="button">Actualizar Carro</a>
                                 </div>
                             </td>
@@ -148,7 +148,7 @@
                             <tr>
                                 <td>&nbsp;</td>
                                 <td>
-                                    <?php echo CHtml::link('Finalizar Pedido', 'javascript:finalizarPedido();', array('class' => 'button', 'confirm' => '¿Está seguro que quiere realizar el pedido?')); ?>
+                                    <?php echo CHtml::link('Finalizar Pedido', 'javascript:finalizarPedido();', array('class' => 'button', 'confirm' => '¿Estás seguro que quieres realizar el pedido?')); ?>
                                 </td>
                             </tr>
                         </table>
