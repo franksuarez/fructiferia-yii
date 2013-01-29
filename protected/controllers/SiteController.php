@@ -125,7 +125,7 @@ class SiteController extends Controller {
     public function actionPanelControlCliente() {
         $this->layout = 'sitio';
 
-        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        $menuPanel = MenuPanelControlCliente::model()->findAll(array('order' => 'menu_panel_control_cliente_orden'));
 
         $this->render('panelControlCliente'
                 , array('menuPanel' => $menuPanel)
@@ -179,7 +179,7 @@ class SiteController extends Controller {
     public function actionModificarDatosCliente() {
         $this->layout = 'sitio';
 
-        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        $menuPanel = MenuPanelControlCliente::model()->findAll(array('order' => 'menu_panel_control_cliente_orden'));
         $cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
 
         if (isset($_POST['Cliente'])) {
@@ -194,7 +194,7 @@ class SiteController extends Controller {
     public function actionMisDireccionesDeEnvio() {
         $this->layout = 'sitio';
 
-        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        $menuPanel = MenuPanelControlCliente::model()->findAll(array('order' => 'menu_panel_control_cliente_orden'));
         $cliente = Cliente::model()->findByPk($_SESSION['Cliente']['cliente_id']);
         $direcciones = Direccion::model()->with('comuna')->findALl('cliente_id = ' . $_SESSION['Cliente']['cliente_id']);
 
@@ -208,7 +208,7 @@ class SiteController extends Controller {
     public function actionHistorialDeMisPedidos() {
         $this->layout = 'sitio';
 
-        $menuPanel = MenuPanelControlCliente::model()->findAll();
+        $menuPanel = MenuPanelControlCliente::model()->findAll(array('order' => 'menu_panel_control_cliente_orden'));
 
         $this->render(
                 'historialDeMisPedidos', array(
