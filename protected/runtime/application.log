@@ -3220,3 +3220,107 @@ REQUEST_URI=/carro-felinos/site/listarProductosPorCategoria/1
 in C:\wamp\www\carro-felinos\protected\views\site\crearCuentaCliente.php (14)
 in C:\wamp\www\carro-felinos\protected\views\site\listarProductosPorCategoria.php (47)
 in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (146)
+2013/01/29 21:58:20 [error] [php] include(authenticate.php): failed to open stream: No such file or directory (C:\wamp\www\carro-felinos\framework\YiiBase.php:423)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\validators\CValidator.php(187): import()
+#1 C:\wamp\www\carro-felinos\framework\base\CModel.php(285): createValidator()
+#2 C:\wamp\www\carro-felinos\framework\base\CModel.php(259): InicioSesionForm->createValidators()
+#3 C:\wamp\www\carro-felinos\framework\base\CModel.php(302): InicioSesionForm->getValidators()
+#4 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1197): InicioSesionForm->isAttributeRequired()
+#5 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(563): activeLabelEx()
+#6 C:\wamp\www\carro-felinos\protected\views\site\iniciarSesion.php(21): CActiveForm->labelEx()
+#7 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require()
+#8 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(870): SiteController->renderFile()
+#10 C:\wamp\www\carro-felinos\framework\web\CController.php(783): SiteController->renderPartial()
+#11 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(173): SiteController->render()
+#12 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams()
+#14 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#15 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#16 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#17 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#18 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#19 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\views\site\iniciarSesion.php (21)
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (173)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 22:15:48 [error] [exception.CException] exception 'CException' with message 'InicioSesionForm has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in C:\wamp\www\carro-felinos\framework\base\CModel.php:287
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\base\CModel.php(259): CModel->createValidators()
+#1 C:\wamp\www\carro-felinos\framework\base\CModel.php(302): CModel->getValidators('email')
+#2 C:\wamp\www\carro-felinos\framework\web\helpers\CHtml.php(1197): CModel->isAttributeRequired('email')
+#3 C:\wamp\www\carro-felinos\framework\web\widgets\CActiveForm.php(563): CHtml::activeLabelEx(Object(InicioSesionForm), 'email', Array)
+#4 C:\wamp\www\carro-felinos\protected\views\site\iniciarSesion.php(33): CActiveForm->labelEx(Object(InicioSesionForm), 'email')
+#5 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(127): require('C:\wamp\www\car...')
+#6 C:\wamp\www\carro-felinos\framework\web\CBaseController.php(96): CBaseController->renderInternal('C:\wamp\www\car...', Array, true)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(870): CBaseController->renderFile('C:\wamp\www\car...', Array, true)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(783): CController->renderPartial('iniciarSesion', Array, true)
+#9 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(173): CController->render('iniciarSesion', Array)
+#10 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(50): SiteController->actionIniciarSesion()
+#11 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#12 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#13 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#14 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('iniciarSesion')
+#15 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/iniciarSes...')
+#16 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#17 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#18 {main}
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+HTTP_REFERER=http://localhost:90/carro-felinos/site/iniciarSesion
+---
+2013/01/29 22:18:47 [error] [php] Creating default object from empty value (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:154)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/iniciarSesion
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (154)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 22:58:08 [error] [exception.CException] exception 'CException' with message 'Property "CDbCriteria.conditions" is not defined.' in C:\wamp\www\carro-felinos\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\schema\CDbCriteria.php(161): CComponent->__set('conditions', 'direccion_id 7 ...')
+#1 C:\wamp\www\carro-felinos\framework\db\schema\CDbCommandBuilder.php(462): CDbCriteria->__construct(Array)
+#2 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1409): CDbCommandBuilder->createCriteria(Array, Array)
+#3 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(255): CActiveRecord->findAll(Array)
+#4 [internal function]: SiteController->actionEliminarDireccionCliente('7')
+#5 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarDirecci...')
+#11 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/eliminarDi...')
+#12 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#14 {main}
+REQUEST_URI=/carro-felinos/site/eliminarDireccionCliente/7
+HTTP_REFERER=http://localhost:90/carro-felinos/site/misDireccionesDeEnvio
+---
+2013/01/29 22:58:29 [error] [system.db.CDbCommand] CDbCommand::fetchAll() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '7 and cliente_id = 1' at line 1. The SQL statement executed was: SELECT * FROM `direccion` `t` WHERE direccion_id 7 and cliente_id = 1.
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (255)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/01/29 22:58:29 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '7 and cliente_id = 1' at line 1. The SQL statement executed was: SELECT * FROM `direccion` `t` WHERE direccion_id 7 and cliente_id = 1' in C:\wamp\www\carro-felinos\framework\db\CDbCommand.php:528
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\db\CDbCommand.php(390): CDbCommand->queryInternal('fetchAll', Array, Array)
+#1 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1291): CDbCommand->queryAll()
+#2 C:\wamp\www\carro-felinos\framework\db\ar\CActiveRecord.php(1410): CActiveRecord->query(Object(CDbCriteria), true)
+#3 C:\wamp\www\carro-felinos\protected\controllers\SiteController.php(255): CActiveRecord->findAll('direccion_id 7 ...')
+#4 [internal function]: SiteController->actionEliminarDireccionCliente('7')
+#5 C:\wamp\www\carro-felinos\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(SiteController), Array)
+#6 C:\wamp\www\carro-felinos\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(SiteController), Object(ReflectionMethod), Array)
+#7 C:\wamp\www\carro-felinos\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#8 C:\wamp\www\carro-felinos\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#9 C:\wamp\www\carro-felinos\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): CController->run('eliminarDirecci...')
+#11 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController('site/eliminarDi...')
+#12 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#13 C:\wamp\www\carro-felinos\index.php(20): CApplication->run()
+#14 {main}
+REQUEST_URI=/carro-felinos/site/eliminarDireccionCliente/7
+HTTP_REFERER=http://localhost:90/carro-felinos/site/misDireccionesDeEnvio
+---
