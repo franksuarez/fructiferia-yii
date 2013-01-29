@@ -8,7 +8,7 @@
         <link href="<?php echo Yii::app()->baseUrl; ?>/css/text.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo Yii::app()->baseUrl; ?>/css/sitio.principal.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo Yii::app()->baseUrl; ?>/js/jquery.fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
-        
+
         <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/jquery-1.8.3.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/jquery.fancybox/jquery.fancybox.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/funciones.js"></script>
@@ -23,7 +23,7 @@
                 </div>
                 <div style="width: 50%; float: left;"></div>
             </div>
-            
+
             <div class="grid_24 nav_container">
                 <ul id="nav">
                     <li>Inicio</li>
@@ -31,26 +31,26 @@
             </div>
 
             <div class="grid_24 header-block-2">
-            	<ul class="links">
-            		<li>
-						<?php echo CHtml::link('Mi Carro (' . count($_SESSION['carro']) .')', array('carro/listarProductosCarro'), array('title' => 'Mi Carro')); ?>
-					</li>
-            	<?php if(isset($_SESSION['Cliente'])): ?>
-                	<li>
-                		<?php echo CHtml::link('Mi Panel de Control', array('site/panelControlCliente')); ?>
-                	</li>
-                    <li><a href="" title="Mis Favoritos">Mis Favoritos</a></li>
+                <ul class="links">
                     <li>
-                    	<?php echo CHtml::link('Cerrar Sesión (' . $_SESSION['Cliente']['cliente_nombre'] . ')', array('site/cerrarSesion')); ?>
+                        <?php echo CHtml::link('Mi Carro (' . count($_SESSION['carro']) . ')', array('carro/listarProductosCarro'), array('title' => 'Mi Carro')); ?>
                     </li>
-                <?php else: ?>
-                    <li>
-                    	<?php echo CHtml::link('Crear Cuenta', array('site/crearCuentaCliente'), array('title' => 'Crear Cuenta')); ?>
-                    </li>
-                    <li>
-                    	<?php echo CHtml::link('Log In', array('site/iniciarSesion')); ?>
-                    </li>
-                <?php endif; ?>
+                    <?php if (isset($_SESSION['Cliente'])): ?>
+                        <li>
+                            <?php echo CHtml::link('Mi Panel de Control', array('site/panelControlCliente')); ?>
+                        </li>
+                        <li><a href="" title="Mis Favoritos">Mis Favoritos</a></li>
+                        <li>
+                            <?php echo CHtml::link('Cerrar Sesión (' . $_SESSION['Cliente']['cliente_nombre'] . ')', array('site/cerrarSesion')); ?>
+                        </li>
+                    <?php else: ?>
+                        <li>
+                            <?php echo CHtml::link('Crear Cuenta', array('site/crearCuentaCliente'), array('title' => 'Crear Cuenta')); ?>
+                        </li>
+                        <li>
+                            <?php echo CHtml::link('Log In', array('site/iniciarSesion')); ?>
+                        </li>
+                    <?php endif; ?>
                 </ul>
                 <p class="welcome-msg">Bienvenido a nuestra tienda on-line</p>            
                 <br class="clear">

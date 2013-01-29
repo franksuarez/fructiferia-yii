@@ -2,11 +2,11 @@
     <div class="block-container">
         <div class="block-title">Categorías</div>
         <div class="block-content">
-        	<ul id="categorias">
-        	<?php foreach($categorias as $categoria): ?>
-        		<li><?php echo CHtml::link($categoria->categoria_nombre, array('listarProductosPorCategoria', 'id' => $categoria->categoria_id)); ?></li>
-        	<?php endforeach; ?>
-        	</ul>
+            <ul id="categorias">
+                <?php foreach ($categorias as $categoria): ?>
+                    <li><?php echo CHtml::link($categoria->categoria_nombre, array('listarProductosPorCategoria', 'id' => $categoria->categoria_id)); ?></li>
+                <?php endforeach; ?>
+            </ul>
         </div>
     </div>
 </div>
@@ -24,11 +24,7 @@
     <div class="block-container">
         <div class="block-title">Carro</div>
         <div class="block-content">
-        	<ul>
-        	<?php foreach($_SESSION['carro'] as $key => $producto): ?>
-        		<li><?php echo $producto['producto_nombre']; ?></li>
-        	<?php endforeach; ?>
-        	</ul>
+            <?php echo $this->renderPartial('//site/productosCarro'); ?>
         </div>
     </div>
 </div>
