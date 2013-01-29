@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 29-01-2013 a las 01:01:20
+-- Tiempo de generación: 29-01-2013 a las 01:18:45
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -230,17 +230,19 @@ CREATE TABLE IF NOT EXISTS `menu_panel_control_cliente` (
   `menu_panel_control_cliente_id` bigint(20) NOT NULL AUTO_INCREMENT,
   `menu_panel_control_cliente_nombre` varchar(255) DEFAULT NULL,
   `menu_panel_control_cliente_url` varchar(255) DEFAULT NULL,
+  `menu_panel_control_cliente_orden` int(11) DEFAULT NULL,
   PRIMARY KEY (`menu_panel_control_cliente_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=5 ;
 
 --
 -- Volcado de datos para la tabla `menu_panel_control_cliente`
 --
 
-INSERT INTO `menu_panel_control_cliente` (`menu_panel_control_cliente_id`, `menu_panel_control_cliente_nombre`, `menu_panel_control_cliente_url`) VALUES
-(1, 'Modificar mis Datos', 'site/modificarDatosCliente'),
-(2, 'Ver Historial de mis Pedidos', 'site/historialDeMisPedidos'),
-(3, 'Mis Direcciones de Envío', 'site/misDireccionesDeEnvio');
+INSERT INTO `menu_panel_control_cliente` (`menu_panel_control_cliente_id`, `menu_panel_control_cliente_nombre`, `menu_panel_control_cliente_url`, `menu_panel_control_cliente_orden`) VALUES
+(1, 'Modificar mis Datos', 'site/modificarDatosCliente', 2),
+(2, 'Ver Historial de mis Pedidos', 'site/historialDeMisPedidos', 3),
+(3, 'Mis Direcciones de Envío', 'site/misDireccionesDeEnvio', 4),
+(4, 'Inicio', 'site/panelControlCliente', 1);
 
 -- --------------------------------------------------------
 
