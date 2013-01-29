@@ -103,7 +103,7 @@ class CarroController extends Controller {
                 $pedido->tipo_documento_id                  = $tipoDocumento->tipo_documento_id;
 
                 if($pedido->save()) {
-                    Yii::app()->user->setFlash('pedidoRealizadoCorrecto', "¡Gracias por comprar!<br/>Tu pedido es: #" . $pedido->pedido_id . "<br />Recibirás un e-mail con los detalles de tu pedido.");
+                    Yii::app()->user->setFlash('pedidoRealizadoCorrecto', "¡Gracias por comprar!<br/>Tu pedido es: #" . str_pad($pedido->pedido_id, 10, "0", STR_PAD_LEFT) . "<br />Recibirás un e-mail con los detalles de tu pedido.");
 
                     foreach ($_SESSION['carro'] as $key => $producto) {
                         $pedidoDetalle = new PedidoDetalle;

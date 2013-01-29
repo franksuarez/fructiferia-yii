@@ -43,6 +43,8 @@
 <div class="grid_5">
     <div class="block-container">
         <div class="block-title">Carro</div>
-        <div class="block-content">Contenido</div>
+        <div class="block-content">
+            <?php echo $this->renderPartial('//site/productosCarro'); ?>
+        </div>
     </div>
 </div>
