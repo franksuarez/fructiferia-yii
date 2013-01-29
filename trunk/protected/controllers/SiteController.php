@@ -148,26 +148,32 @@ class SiteController extends Controller {
 
     public function actionIniciarSesion() {
         $this->layout = 'sitio';
+        $inicioSesionForm = new InicioSesionForm;
 
-        if (isset($_POST['Cliente'])) {
-            $cliente = Cliente::model()->find("cliente_email = '" . $_POST['Cliente']['cliente_email'] . "' and cliente_password = '" . $_POST['Cliente']['cliente_password'] . "'");
+        if (isset($_POST['InicioSesionForm'])) {
+            $inicioSesionForm->attributes = $_POST['InicioSesionForm'];
+            if($inicioSesionForm->validate()) {
+                $cliente = Cliente::model()->find("cliente_email = '" . $_POST['InicioSesionForm']['email'] . "' and cliente_password = '" . $_POST['InicioSesionForm']['password'] . "'");
 
-            if (isset($cliente)) {
-                $_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
-                $_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
-                $_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
-                $_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
-                $_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
-                $_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
-                $_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
+                if (isset($cliente)) {
+                    $_SESSION['Cliente']['cliente_id'] = $cliente->cliente_id;
+                    $_SESSION['Cliente']['cliente_nombre'] = $cliente->cliente_nombre;
+                    $_SESSION['Cliente']['cliente_ape_paterno'] = $cliente->cliente_ape_paterno;
+                    $_SESSION['Cliente']['cliente_ape_materno'] = $cliente->cliente_ape_materno;
+                    $_SESSION['Cliente']['cliente_email'] = $cliente->cliente_email;
+                    $_SESSION['Cliente']['cliente_telefono'] = $cliente->cliente_telefono;
+                    $_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
 
-                $this->redirect('panelControlCliente');
-            } else {
-                $this->render('iniciarSesion');
+                    $this->redirect('panelControlCliente');
+                }
             }
-        } else {
-            $this->render('iniciarSesion');
         }
+        
+        $this->render(
+                'iniciarSesion',
+                array(
+                    'inicioSesionForm' => $inicioSesionForm
+                ));
     }
 
     public function actionCerrarSesion() {
@@ -228,8 +234,12 @@ class SiteController extends Controller {
             $direccion->cliente_id = $_SESSION['Cliente']['cliente_id'];
 
             if ($direccion->save()) {
+                Yii::app()->user->setFlash('direccionClienteAgregada', 'La Dirección se ha agregado.');
                 $this->redirect(array('site/misDireccionesDeEnvio'));
+            } else {
+                Yii::app()->user->setFlash('direccionClienteNoAgregada', 'La Dirección no se ha agregado. Favor intente mas tarde.');
             }
+            
         }
 
         $this->render(
@@ -237,6 +247,24 @@ class SiteController extends Controller {
             'comunas' => $comunas,
             'direccion' => $direccion
         ));
+    }
+    
+    public function actionRecuperarPassword() {
+        $this->layout = 'sitio';
+        
+        $this->render('recuperarPassword');
+    }
+    
+    public function actionEliminarDireccionCliente($id) {
+        $direccion = Direccion::model()->find('direccion_id = ' . $id . ' and cliente_id = ' . $_SESSION['Cliente']['cliente_id']);
+        
+        if($direccion->delete()) {
+            Yii::app()->user->setFlash('direccionClienteEliminada', 'La Dirección se ha eliminado.');
+        } else {
+            Yii::app()->user->setFlash('direccionClienteNoEliminada', 'La Dirección no se ha eliminado. Favor intente mas tarde.');
+        }
+        
+        $this->redirect(array('site/misDireccionesDeEnvio'));
     }
 
 }
