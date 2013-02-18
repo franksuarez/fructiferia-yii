@@ -10,10 +10,13 @@
         <link href="<?php echo Yii::app()->baseUrl; ?>/css/text.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo Yii::app()->baseUrl; ?>/css/sitio.principal.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo Yii::app()->baseUrl; ?>/js/jquery.fancybox/jquery.fancybox.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo Yii::app()->baseUrl; ?>/js/nivo/nivo-slider.css" rel="stylesheet" type="text/css" />
+        <link href="<?php echo Yii::app()->baseUrl; ?>/js/nivo/themes/default/default.css" rel="stylesheet" type="text/css" />
 
         <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/jquery-1.8.3.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/jquery.fancybox/jquery.fancybox.js"></script>
         <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/funciones.js"></script>
+        <script type="text/javascript" src="<?php echo Yii::app()->baseUrl ?>/js/nivo/jquery.nivo.slider.js"></script>
 
         <title>FRUCTIFERIA</title>
     </head>

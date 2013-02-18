@@ -12,6 +12,21 @@
 </div>
 
 <div class="grid_14">
+    <div id="wrapper">
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="<?php echo Yii::app()->baseUrl; ?>/images/nivo/toystory.jpg" data-thumb="<?php echo Yii::app()->baseUrl; ?>/images/nivo/toystory.jpg" data-transition="slideInLeft" alt="" />
+                <img src="<?php echo Yii::app()->baseUrl; ?>/images/nivo/up.jpg" data-thumb="<?php echo Yii::app()->baseUrl; ?>/images/nivo/up.jpg" alt="" data-transition="slideInLeft" title="This is an example of a caption" />
+                <img src="<?php echo Yii::app()->baseUrl; ?>/images/nivo/walle.jpg" data-thumb="<?php echo Yii::app()->baseUrl; ?>/images/nivo/walle.jpg" alt="" data-transition="slideInLeft" />
+                <img src="<?php echo Yii::app()->baseUrl; ?>/images/nivo/nemo.jpg" data-thumb="<?php echo Yii::app()->baseUrl; ?>/images/nivo/nemo.jpg" data-transition="slideInLeft" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>Este</strong> es un ejemplo de un <em>HTML</em> caption con <a href="#">un link</a>. 
+            </div>
+        </div>
+
+    </div>
+
     <div class="block-container">
         <div class="block-title">Ofertas</div>
         <div class="block-content">
@@ -28,3 +43,8 @@
         </div>
     </div>
 </div>
+<script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+</script>
