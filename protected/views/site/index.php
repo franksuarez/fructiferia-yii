@@ -45,6 +45,6 @@
 </div>
 <script type="text/javascript">
     $(window).load(function() {
-        $('#slider').nivoSlider();
+        $('#slider').nivoSlider({pauseTime:6000});
     });
 </script>

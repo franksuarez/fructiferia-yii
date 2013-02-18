@@ -1,5 +1,5 @@
 <?php $paginasMenu = Pagina::model()->findAll(); ?>
-<?php //echo "<pre>"; print_r($paginasMenu); echo "</pre>"; ?>
+<?php //echo "<pre>"; print_r($_SESSION['carro']); echo "</pre>";   ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -32,8 +32,8 @@
             <div class="grid_24 nav_container">
                 <ul id="nav">
                     <li><?php echo CHtml::link('Inicio', array('site/index'), array()); ?></li>
-                    <?php foreach($paginasMenu as $pagina): ?>
-                    <li><?php echo CHtml::link($pagina->pagina_nombre, array('site/pagina', 'id' => $pagina->pagina_id)); ?></li>
+                    <?php foreach ($paginasMenu as $pagina): ?>
+                        <li><?php echo CHtml::link($pagina->pagina_nombre, array('site/pagina', 'id' => $pagina->pagina_id)); ?></li>
                     <?php endforeach; ?>
                 </ul>
             </div>
@@ -67,6 +67,23 @@
             <div class="grid_24" style="height: 10px;"></div>
 
             <?php echo $content; ?>
+
+            <div class="grid_24" style="height: 10px;"></div>
+
+            <div class="grid_24" style="">
+                <div class="block-content">Link</div>
+
+                <div class="footer-block-2">
+                    <div class="right">
+
+                        <!--{%FOOTER_LINK}-->	    </div>
+                    <address style="color: #ffffff;">© <script type="text/javascript">var mdate = new Date();
+                    document.write(mdate.getFullYear());</script> Fructiferia, tienda online. Todos los derechos reservados.</address>
+                    <div class="clear"></div>
+                </div>
+            </div>
+            
+            <div class="grid_24" style="height: 50px;"></div>
         </div>
     </body>
 </html>

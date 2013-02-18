@@ -6809,3 +6809,1079 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/favicon.ico
 ---
+2013/02/18 13:07:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:08:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:08:27 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:08:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:09:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:10:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:11:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:11:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:11:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:11:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:12:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:13:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:13:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:14:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:15:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:15:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:15:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:17:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:17:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:26:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:26:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:28:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:28:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:31 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:29:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:34:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:34:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:34:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:36:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:36:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 13:36:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 14:04:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:12 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:43 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:49 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:31:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:32:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:38:51 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:38:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:38:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:46:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:46:59 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:34 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:41 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:47:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:48:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:48:09 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:48:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:48:13 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:48:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:48:26 [error] [exception.CException] exception 'CException' with message 'Property "Pedido.pedido_total" is not defined.' in C:\wamp\www\fructiferia-yii\framework\base\CComponent.php:174
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\db\ar\CActiveRecord.php(160): CComponent->__set('pedido_total', 20790)
+#1 C:\wamp\www\fructiferia-yii\protected\controllers\CarroController.php(100): CActiveRecord->__set('pedido_total', 20790)
+#2 C:\wamp\www\fructiferia-yii\framework\web\actions\CInlineAction.php(50): CarroController->actionFinalizarPedido()
+#3 C:\wamp\www\fructiferia-yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\wamp\www\fructiferia-yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\wamp\www\fructiferia-yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(283): CController->run('finalizarPedido')
+#7 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('carro/finalizar...')
+#8 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#10 {main}
+REQUEST_URI=/carro/finalizarPedido
+HTTP_REFERER=http://fructiferia-yii:90/carro/listarProductosCarro
+---
+2013/02/18 15:48:26 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:49:57 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:50:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 15:50:18 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 16:40:44 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 16:40:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 16:40:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 16:40:54 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 18:45:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 18:45:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 18:45:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 18:45:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 18:45:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 19:54:39 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:04:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:05:19 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:08:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:08:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:10:06 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:10:10 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:10:15 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:10:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:10:22 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:11:21 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:13:28 [error] [php] Undefined index: images_nombre (C:\wamp\www\fructiferia-yii\protected\views\site\productosCarro.php:6)
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CController.php(870): SiteController->renderFile()
+#1 C:\wamp\www\fructiferia-yii\protected\views\site\index.php(42): SiteController->renderPartial()
+#2 C:\wamp\www\fructiferia-yii\framework\web\CBaseController.php(127): require()
+#3 C:\wamp\www\fructiferia-yii\framework\web\CBaseController.php(96): SiteController->renderInternal()
+#4 C:\wamp\www\fructiferia-yii\framework\web\CController.php(870): SiteController->renderFile()
+#5 C:\wamp\www\fructiferia-yii\framework\web\CController.php(783): SiteController->renderPartial()
+#6 C:\wamp\www\fructiferia-yii\protected\controllers\SiteController.php(34): SiteController->render()
+#7 C:\wamp\www\fructiferia-yii\framework\web\actions\CInlineAction.php(50): SiteController->actionIndex()
+#8 C:\wamp\www\fructiferia-yii\framework\web\CController.php(309): CInlineAction->runWithParams()
+#9 C:\wamp\www\fructiferia-yii\framework\web\CController.php(287): SiteController->runAction()
+#10 C:\wamp\www\fructiferia-yii\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#11 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(283): SiteController->run()
+#12 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#13 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#14 C:\wamp\www\fructiferia-yii\index.php(20): CWebApplication->run()
+REQUEST_URI=/site/index
+in C:\wamp\www\fructiferia-yii\protected\views\site\productosCarro.php (6)
+in C:\wamp\www\fructiferia-yii\protected\views\site\index.php (42)
+in C:\wamp\www\fructiferia-yii\protected\controllers\SiteController.php (34)
+2013/02/18 20:13:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:13:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:14:50 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:15:03 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:18:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:21:52 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:23:47 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:25:11 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:25:35 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:28:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:29:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:30:01 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:30:23 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:30:33 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:31:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:32:08 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:57:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 20:57:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 21:01:00 [error] [exception.CDbException] exception 'CDbException' with message 'CDbConnection failed to open the DB connection: SQLSTATE[HY000] [2002] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión.
+' in C:\wamp\www\fructiferia-yii\framework\db\CDbConnection.php:382
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\db\CDbConnection.php(331): CDbConnection->open()
+#1 C:\wamp\www\fructiferia-yii\framework\db\CDbConnection.php(309): CDbConnection->setActive(true)
+#2 C:\wamp\www\fructiferia-yii\framework\base\CModule.php(388): CDbConnection->init()
+#3 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(431): CModule->getComponent('db')
+#4 C:\wamp\www\fructiferia-yii\framework\db\ar\CActiveRecord.php(624): CApplication->getDb()
+#5 C:\wamp\www\fructiferia-yii\framework\db\ar\CActiveRecord.php(2311): CActiveRecord->getDbConnection()
+#6 C:\wamp\www\fructiferia-yii\framework\db\ar\CActiveRecord.php(388): CActiveRecordMetaData->__construct(Object(MenuPanelControlCliente))
+#7 C:\wamp\www\fructiferia-yii\protected\models\MenuPanelControlCliente.php(20): CActiveRecord::model('MenuPanelContro...')
+#8 C:\wamp\www\fructiferia-yii\protected\controllers\SiteController.php(128): MenuPanelControlCliente::model()
+#9 C:\wamp\www\fructiferia-yii\framework\web\actions\CInlineAction.php(50): SiteController->actionPanelControlCliente()
+#10 C:\wamp\www\fructiferia-yii\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#11 C:\wamp\www\fructiferia-yii\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#12 C:\wamp\www\fructiferia-yii\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#13 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(283): CController->run('panelControlCli...')
+#14 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('site/panelContr...')
+#15 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#16 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#17 {main}
+REQUEST_URI=/site/panelControlCliente
+---
+2013/02/18 21:01:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 21:01:05 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2013/02/18 21:01:07 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php:287
+Stack trace:
+#0 C:\wamp\www\fructiferia-yii\framework\web\CWebApplication.php(142): CWebApplication->runController('favicon.ico')
+#1 C:\wamp\www\fructiferia-yii\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#2 C:\wamp\www\fructiferia-yii\index.php(20): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
