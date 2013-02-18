@@ -1,3 +1,5 @@
+<?php $paginasMenu = Pagina::model()->findAll(); ?>
+<?php //echo "<pre>"; print_r($paginasMenu); echo "</pre>"; ?>
 <!DOCTYPE html>
 <html>
     <head>
@@ -26,7 +28,10 @@
 
             <div class="grid_24 nav_container">
                 <ul id="nav">
-                    <li>Inicio</li>
+                    <li><?php echo CHtml::link('Inicio', array('site/index'), array()); ?></li>
+                    <?php foreach($paginasMenu as $pagina): ?>
+                    <li><?php echo CHtml::link($pagina->pagina_nombre, array('site/pagina', 'id' => $pagina->pagina_id)); ?></li>
+                    <?php endforeach; ?>
                 </ul>
             </div>
 

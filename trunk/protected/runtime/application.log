@@ -3324,3 +3324,42 @@ Stack trace:
 REQUEST_URI=/carro-felinos/site/eliminarDireccionCliente/7
 HTTP_REFERER=http://localhost:90/carro-felinos/site/misDireccionesDeEnvio
 ---
+2013/02/17 16:39:10 [warning] [application] Failed to set unsafe attribute "producto_id" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/02/17 16:39:10 [warning] [application] Failed to set unsafe attribute "archivo" of "ImagenProducto".
+in C:\wamp\www\carro-felinos\protected\controllers\ProductoController.php (144)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/02/17 16:51:48 [error] [php] Undefined index: Cliente (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:189)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/modificarDatosCliente
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (189)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/02/17 16:51:52 [error] [php] Undefined index: Cliente (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:204)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/misDireccionesDeEnvio
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (204)
+in C:\wamp\www\carro-felinos\index.php (20)
+2013/02/17 16:51:57 [error] [php] Undefined index: Cliente (C:\wamp\www\carro-felinos\protected\controllers\SiteController.php:204)
+Stack trace:
+#0 C:\wamp\www\carro-felinos\framework\web\CController.php(287): SiteController->runAction()
+#1 C:\wamp\www\carro-felinos\framework\web\CController.php(266): SiteController->runActionWithFilters()
+#2 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(283): SiteController->run()
+#3 C:\wamp\www\carro-felinos\framework\web\CWebApplication.php(142): CWebApplication->runController()
+#4 C:\wamp\www\carro-felinos\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#5 C:\wamp\www\carro-felinos\index.php(20): CWebApplication->run()
+REQUEST_URI=/carro-felinos/site/misDireccionesDeEnvio
+in C:\wamp\www\carro-felinos\protected\controllers\SiteController.php (204)
+in C:\wamp\www\carro-felinos\index.php (20)
