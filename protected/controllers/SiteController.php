@@ -152,7 +152,7 @@ class SiteController extends Controller {
 
         if (isset($_POST['InicioSesionForm'])) {
             $inicioSesionForm->attributes = $_POST['InicioSesionForm'];
-            if($inicioSesionForm->validate()) {
+            if ($inicioSesionForm->validate()) {
                 $cliente = Cliente::model()->find("cliente_email = '" . $_POST['InicioSesionForm']['email'] . "' and cliente_password = '" . $_POST['InicioSesionForm']['password'] . "'");
 
                 if (isset($cliente)) {
@@ -168,12 +168,11 @@ class SiteController extends Controller {
                 }
             }
         }
-        
+
         $this->render(
-                'iniciarSesion',
-                array(
-                    'inicioSesionForm' => $inicioSesionForm
-                ));
+                'iniciarSesion', array(
+            'inicioSesionForm' => $inicioSesionForm
+        ));
     }
 
     public function actionCerrarSesion() {
@@ -239,7 +238,6 @@ class SiteController extends Controller {
             } else {
                 Yii::app()->user->setFlash('direccionClienteNoAgregada', 'La Dirección no se ha agregado. Favor intente mas tarde.');
             }
-            
         }
 
         $this->render(
@@ -248,23 +246,35 @@ class SiteController extends Controller {
             'direccion' => $direccion
         ));
     }
-    
+
     public function actionRecuperarPassword() {
         $this->layout = 'sitio';
-        
+
         $this->render('recuperarPassword');
     }
-    
+
     public function actionEliminarDireccionCliente($id) {
         $direccion = Direccion::model()->find('direccion_id = ' . $id . ' and cliente_id = ' . $_SESSION['Cliente']['cliente_id']);
-        
-        if($direccion->delete()) {
+
+        if ($direccion->delete()) {
             Yii::app()->user->setFlash('direccionClienteEliminada', 'La Dirección se ha eliminado.');
         } else {
             Yii::app()->user->setFlash('direccionClienteNoEliminada', 'La Dirección no se ha eliminado. Favor intente mas tarde.');
         }
-        
+
         $this->redirect(array('site/misDireccionesDeEnvio'));
+    }
+
+    public function actionPagina($id) {
+        $this->layout = 'sitio';
+        $pagina = Pagina::model()->findByPk($id);
+
+        $this->render(
+            'pagina',
+            array(
+                'pagina' => $pagina
+            )
+        );
     }
 
 }
