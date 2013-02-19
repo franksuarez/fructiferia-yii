@@ -55,6 +55,8 @@ class SiteController extends Controller {
      * Displays the contact page
      */
     public function actionContact() {
+        $this->layout = 'sitio';
+        
         $model = new ContactForm;
         if (isset($_POST['ContactForm'])) {
             $model->attributes = $_POST['ContactForm'];
@@ -66,8 +68,8 @@ class SiteController extends Controller {
                         "MIME-Version: 1.0\r\n" .
                         "Content-type: text/plain; charset=UTF-8";
 
-                mail(Yii::app()->params['adminEmail'], $subject, $model->body, $headers);
-                Yii::app()->user->setFlash('contact', 'Thank you for contacting us. We will respond to you as soon as possible.');
+                mail(Configuracion::model()->findByPk(3)->configuracion_valor, $subject, $model->body, $headers);
+                Yii::app()->user->setFlash('contact', 'Gracias por contactarnos. Te responderemos lo más pronto posible.');
                 $this->refresh();
             }
         }

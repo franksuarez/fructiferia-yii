@@ -14,7 +14,7 @@
                 <div><strong><?php echo $producto['producto_nombre']; ?></strong></div>
                 <div><?php echo $producto['producto_cantidad']; ?> <strong>x</strong> <span class="producto-precio">$<?php echo number_format(((int)$producto['producto_cantidad'] * (int)$producto['producto_precio']), '0', ',', '.'); ?></span></div>
             </td>
-            <td class="botones-producto">
+            <td class="botones-producto" style="text-align: right;">
                 <?php echo CHtml::link(
                             CHtml::image(Yii::app()->baseUrl . '/images/btn_remove.gif', 'Eliminar ' . $producto['producto_nombre'], array('title' => 'Eliminar ' . $producto['producto_nombre'])),
                             array('carro/eliminarProductoCarro', 'id' => $producto['producto_id'])

@@ -35,6 +35,7 @@
                     <?php foreach ($paginasMenu as $pagina): ?>
                         <li><?php echo CHtml::link($pagina->pagina_nombre, array('site/pagina', 'id' => $pagina->pagina_id)); ?></li>
                     <?php endforeach; ?>
+                    <li><?php echo CHtml::link('Contacto', array('site/contact'), array()); ?></li>
                 </ul>
             </div>
 
