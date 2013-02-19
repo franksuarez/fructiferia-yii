@@ -30,8 +30,13 @@ class SiteController extends Controller {
         $this->layout = 'sitio';
 
         $categorias = Categoria::model()->findAll();
+        $sliders = Slider::model()->findAll();
 
-        $this->render('index', array('categorias' => $categorias));
+        $this->render(
+                'index',
+                array(
+                    'categorias' => $categorias,
+                    'sliders' => $sliders));
     }
 
     /**

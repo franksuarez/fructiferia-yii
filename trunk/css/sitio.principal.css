@@ -6,7 +6,7 @@
 
 #nav {
     margin: 0px 0px 0px 0px;
-    padding: 10px 0px 11px 15px;
+    padding: 10px 0px 11px 5px;
 }
 
 #nav li {
@@ -425,6 +425,9 @@ address {
 .box-carro {
     width: 180px;
 }
+.box-carro td, th {
+    font-size: 11px;
+}
 .box-carro .imagen {
     height: 50px;
     border: 1px solid #cccccc;
@@ -432,12 +435,40 @@ address {
 }
 .box-carro .imagen-producto {
     width: 50px;
+    padding: 5px 0px 5px 0px;
 }
 .box-carro .nombre-producto {
     padding-left: 5px;
-    width: 80px;
+    width: 100px;
+    font-size: 11px;
 }
-.box-carro .cantidad-productos{
+.box-carro .botones-productos{
     padding-bottom: 10px;
-    width: 50px;
+    width: 30px;
+}
+.box-carro .producto-precio {
+    font-weight: bold;
+    color: #F19108;
+}
+.box-total-carro {
+    margin: 10px 0px 10px 0px;
+    background-color: #f0f0f0;
+    border: 1px solid #dddddd;
+    padding: 3px 10px 3px 10px;
+}
+.box-total-carro .total {
+    font-weight: bold;
+    color: #666666;
+    font-size: 16px;
+}
+.caja-carro .texto-precio {
+    text-align: center;
+    padding: 5px 0px 5px 0px;
+    font-size: 11px;
+}
+.caja-carro .texto-cantidad-productos {
+    font-size: 11px;
+}
+.caja-carro .box-total-carro {
+    font-size: 11px;
 }
