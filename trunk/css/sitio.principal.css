@@ -200,12 +200,32 @@ div.form .required {
     text-align: left;
     margin: 0px 0px 0px 6px;
 }
+.producto .precio-anterior {
+    color: #aaaaaa;
+    text-align: left;
+    margin: 0px 0px 0px 6px;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: line-through;
+}
 .producto .precio {
     color: #F19108;
     text-align: left;
     margin: 0px 0px 0px 6px;
     font-weight: bold;
     font-size: 18px;
+}
+.producto .precio-antes-texto {
+    text-align: left;
+    margin: 0px 0px 0px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.producto .precio-ahora-texto {
+    text-align: left;
+    margin: 0px 0px 0px 6px;
+    text-transform: uppercase;
+    font-weight: bold;
 }
 
 /* button */

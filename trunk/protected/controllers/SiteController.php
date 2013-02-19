@@ -31,12 +31,14 @@ class SiteController extends Controller {
 
         $categorias = Categoria::model()->findAll();
         $sliders = Slider::model()->findAll();
+        $ofertas = ProductoOferta::model()->with('producto')->findAll();
 
         $this->render(
                 'index',
                 array(
                     'categorias' => $categorias,
-                    'sliders' => $sliders));
+                    'sliders' => $sliders,
+                    'ofertas' => $ofertas));
     }
 
     /**
