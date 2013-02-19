@@ -74,7 +74,7 @@
                         <tr>
                             <td colspan="6" style="background-color: #F1F1F1;">
                                 <div style="float: left; width: 50%; text-align: left;">
-                                    <?php echo CHtml::link('Continuar Comprando', array('/'), array('class' => 'button')); ?>
+                                    <?php echo CHtml::link('Continuar Comprando', array('site/index'), array('class' => 'button')); ?>
                                 </div>
 
                                 <div style="float: left; width: 50%; text-align: right;">
