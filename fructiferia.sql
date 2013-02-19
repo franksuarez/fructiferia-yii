@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Servidor: localhost
--- Tiempo de generación: 19-02-2013 a las 18:10:25
+-- Tiempo de generación: 19-02-2013 a las 21:21:42
 -- Versión del servidor: 5.5.24-log
 -- Versión de PHP: 5.4.3
 
@@ -140,7 +140,7 @@ CREATE TABLE IF NOT EXISTS `configuracion` (
   `configuracion_descripcion` varchar(255) DEFAULT NULL,
   `configuracion_valor` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`configuracion_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=3 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=4 ;
 
 --
 -- Volcado de datos para la tabla `configuracion`
@@ -148,7 +148,8 @@ CREATE TABLE IF NOT EXISTS `configuracion` (
 
 INSERT INTO `configuracion` (`configuracion_id`, `configuracion_nombre`, `configuracion_descripcion`, `configuracion_valor`) VALUES
 (1, 'Imágenes Productos', 'Ruta para la subida de imágenes de los productos', 'C:\\wamp\\www\\carro-felinos\\images\\productos'),
-(2, 'Imágenes Slider', 'Ruta para subida de imágenes del slider', 'C:\\wamp\\www\\fructiferia-yii\\images\\nivo-slider');
+(2, 'Imágenes Slider', 'Ruta para subida de imágenes del slider', 'C:\\wamp\\www\\fructiferia-yii\\images\\nivo-slider'),
+(3, 'E-Mail del administrador del sistema', 'E-Mail del administrador del sistema', 'cardenas1108@gmail.com');
 
 -- --------------------------------------------------------
 
@@ -372,9 +373,30 @@ INSERT INTO `producto` (`producto_id`, `producto_codigo`, `producto_nombre`, `pr
 (1, 'PR-00001', 'Manzana Roja', '', 990, '0000-00-00 00:00:00', '2013-01-08 02:19:14', 1, 1),
 (2, 'PR-00002', 'Manzana Verde', '', 990, '0000-00-00 00:00:00', '2013-01-08 04:58:30', 1, 1),
 (3, 'PR-00003', 'Pera', '', 990, '2013-01-08 15:22:14', NULL, 1, 1),
-(4, 'PR-00004', 'Guinda', '', 990, '2013-01-08 15:22:28', NULL, 1, 1),
+(4, 'PR-00004', 'Guinda', '', 890, '2013-01-08 15:22:28', '2013-02-19 18:04:05', 1, 1),
 (5, 'PR-00005', 'Kiwui', '', 990, '2013-01-08 15:22:41', NULL, 1, 1),
 (6, 'PR-00006', 'Acelga', '', 990, '2013-01-08 16:40:37', NULL, 2, 2);
+
+-- --------------------------------------------------------
+
+--
+-- Estructura de tabla para la tabla `producto_oferta`
+--
+
+CREATE TABLE IF NOT EXISTS `producto_oferta` (
+  `producto_oferta_id` bigint(20) NOT NULL AUTO_INCREMENT,
+  `producto_precio_anterior` int(11) DEFAULT NULL,
+  `producto_id` bigint(20) DEFAULT NULL,
+  PRIMARY KEY (`producto_oferta_id`),
+  UNIQUE KEY `uq_producto_id` (`producto_id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Volcado de datos para la tabla `producto_oferta`
+--
+
+INSERT INTO `producto_oferta` (`producto_oferta_id`, `producto_precio_anterior`, `producto_id`) VALUES
+(1, 990, 4);
 
 -- --------------------------------------------------------
 
@@ -387,17 +409,17 @@ CREATE TABLE IF NOT EXISTS `slider` (
   `slider_nombre_imagen` varchar(255) DEFAULT NULL,
   `slider_titulo` varchar(255) DEFAULT NULL,
   PRIMARY KEY (`slider_id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=17 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
 
 --
 -- Volcado de datos para la tabla `slider`
 --
 
 INSERT INTO `slider` (`slider_id`, `slider_nombre_imagen`, `slider_titulo`) VALUES
-(11, 'S-000011-Koala.jpg', 'Koala'),
-(12, 'S-000012-Jellyfish.jpg', 'Medusa'),
-(15, 'S-000015-Tulips.jpg', 'Tulipanes'),
-(16, 'S-000016-Penguins.jpg', 'Pingüinos');
+(17, 'S-000017-nemo.jpg', 'Buscando a Nemo'),
+(18, 'S-000018-toystory.jpg', 'Toy Story'),
+(19, 'S-000019-up.jpg', 'UP'),
+(20, 'S-000020-walle.jpg', 'Wall - e');
 
 -- --------------------------------------------------------
 
@@ -480,6 +502,12 @@ ALTER TABLE `pedido_detalle`
 ALTER TABLE `producto`
   ADD CONSTRAINT `fk_producto_categoria_categoria_id` FOREIGN KEY (`categoria_id`) REFERENCES `categoria` (`categoria_id`),
   ADD CONSTRAINT `fk_producto_unidad_venta_unidad_venta_id` FOREIGN KEY (`unidad_venta_id`) REFERENCES `unidad_venta` (`unidad_venta_id`);
+
+--
+-- Filtros para la tabla `producto_oferta`
+--
+ALTER TABLE `producto_oferta`
+  ADD CONSTRAINT `fk_producto_oferta_producto_producto_id` FOREIGN KEY (`producto_id`) REFERENCES `producto` (`producto_id`);
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
