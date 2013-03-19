@@ -174,6 +174,8 @@ class SiteController extends Controller {
                     $_SESSION['Cliente']['cliente_telefono_movil'] = $cliente->cliente_telefono_movil;
 
                     $this->redirect('panelControlCliente');
+                } else {
+                    Yii::app()->user->setFlash('error', "Los datos ingresados no son correctos.");
                 }
             }
         }
