@@ -19,6 +19,15 @@
             
             <p>Si ya tiene una cuenta con nosotros, inicia sesión.</p>
             <div style="height: 10px;"></div>
+            
+            <?php if(Yii::app()->user->hasFlash('error')): ?>
+            <div class="error-msg">
+                <?php echo Yii::app()->user->getFlash('error'); ?>
+            </div>
+            
+            <div style="height: 10px;"></div>
+            <?php endif; ?>
+            
             <?php
             $form = $this->beginWidget('CActiveForm', array(
                 'id' => 'cliente-form',

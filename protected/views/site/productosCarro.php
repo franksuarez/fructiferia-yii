@@ -16,6 +16,10 @@
             </td>
             <td class="botones-producto" style="text-align: right;">
                 <?php echo CHtml::link(
+                            CHtml::image(Yii::app()->baseUrl . '/images/btn_edit.gif', 'Eliminar ' . $producto['producto_nombre'], array('title' => 'Editar ' . $producto['producto_nombre'])),
+                            array('carro/listarProductosCarro', 'id' => $producto['producto_id'])
+                        ); ?>
+                <?php echo CHtml::link(
                             CHtml::image(Yii::app()->baseUrl . '/images/btn_remove.gif', 'Eliminar ' . $producto['producto_nombre'], array('title' => 'Eliminar ' . $producto['producto_nombre'])),
                             array('carro/eliminarProductoCarro', 'id' => $producto['producto_id'])
                         ); ?>
